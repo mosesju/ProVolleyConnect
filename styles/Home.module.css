@@ -5,6 +5,25 @@
   -webkit-text-fill-color: transparent;
 }
 
+.dividerLine {
+  border-top: 1px solid #0070f3;
+}
+
+.button1 {
+  background-color: #0070f3;
+  border: 0;
+  color: white;
+  text-align: center;
+  padding: 15px 32 px;
+  display: inline-block;
+  align-self: auto;
+
+}
+
+.spacing {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
 .container {
   min-height: 100vh;
@@ -65,7 +84,7 @@
 
 .description {
   line-height: 1.5;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .code {
@@ -126,4 +145,8 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+#title {
+  padding-bottom: 20px;
 }

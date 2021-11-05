@@ -1,31 +1,33 @@
 import NavBar from './components/NavBar'
 import styles from '../styles/Home.module.css'
+import FeaturedStory from './components/FeaturedStory'
 
-export default function Coaches() {
+export default function Stories() {
     return (
-        <div>
+        <main className={styles.main}>
             <NavBar />
-            <h1>Coaches</h1>
-            <h2>Help your players become professional Volleyball Players</h2>
+            <h1>Stories</h1>
+            <h2>What it's like to actually be a pro</h2>
             <hr className={styles.dividerLine}></hr>
+            <FeaturedStory />
 
             <div className={styles.grid}>
                 <a href="#" className={styles.card}>
-                    <h2>FAQs for Coaches &rarr;</h2>
-                    <p>We asked coaches what they wanted to know, then did the research for them</p>
+                    <h2>Kyle Dagostino &rarr;</h2>
+                    <p>Libero who played at Stanford and in Slovenia</p>
                 </a>
 
                 <a href="#" className={styles.card}>
-                    <h2>Skill Levels &rarr;</h2>
-                    <p>Advise your players on what level they might be able to play at</p>
+                    <h2>Cody Kessel &rarr;</h2>
+                    <p>Outside from Princeton who plays with BR Volleys in Berlin, Germany</p>
                 </a>
 
                 <a
                     href="#"
                     className={styles.card}
                 >
-                    <h2>Timelines &rarr;</h2>
-                    <p>Feel like you never know when things should happen? See the general timeline, here</p>
+                    <h2>Jeff Jendryk &rarr;</h2>
+                    <p>Middle from Loyola Chicago, who plays with BR Volleys in Berlin, Germany</p>
                 </a>
 
                 <a
@@ -38,6 +40,6 @@ export default function Coaches() {
                     </p>
                 </a>
             </div>
-        </div>
+        </main>
     )
 }
