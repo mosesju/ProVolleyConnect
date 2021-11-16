@@ -36,7 +36,7 @@
 }
 
 .main {
-  padding: 5rem 0;
+  /* padding: 5rem 0; */
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -76,8 +76,14 @@
   line-height: 1.15;
   font-size: 4rem;
 }
+.subTitle {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 3rem;
+}
 
 .title,
+.subTitle,
 .description {
   text-align: center;
 }
@@ -149,4 +155,7 @@
 
 #title {
   padding-bottom: 20px;
+}
+.center-element {
+  text-align: center;
 }

@@ -3,7 +3,7 @@ import styles from '../styles/Home.module.css'
 
 export default function Parents() {
     return (
-        <div>
+        <main className={styles.main}>
             <NavBar />
             <h1>Parents</h1>
             <h2>Get your questions answered</h2>
@@ -38,6 +38,6 @@ export default function Parents() {
                     </p>
                 </a>
             </div>
-        </div>
+        </main>
     )
 }

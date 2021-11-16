@@ -1,6 +1,8 @@
 import React from 'react';
 import { Nav, Button } from 'react-bootstrap';
 import Link from 'next/link';
+import styles from '../../styles/Home.module.css'
+
 
 export default function NavBar() {
     // {/* <li className="nav-item">
@@ -34,11 +36,11 @@ export default function NavBar() {
                             <h3 className="nav-link" >Athletes </h3>
                         </Link>
                     </li>
-                    <li className="nav-item">
+                    {/* <li className="nav-item">
                         <Link href="/learn">
                             <h3 className="nav-link" >Learn </h3>
                         </Link>
-                    </li>
+                    </li> */}
                     <li className="nav-item">
                         <Link href="/stories">
                             <h3 className="nav-link" >Stories </h3>
@@ -47,6 +49,16 @@ export default function NavBar() {
                     <li className="nav-item">
                         <Link href="/parents">
                             <h3 className="nav-link" >Parents </h3>
+                        </Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link href="/agents">
+                            <h3 className="nav-link" >Agents </h3>
+                        </Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link href="https://volleyconnect.ghost.io/#/portal/signup">
+                            <button type="button" className="btn btn-primary">Sign Up!</button>
                         </Link>
                     </li>
                 </ul>
