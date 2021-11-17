@@ -9,6 +9,13 @@
   border-top: 1px solid #0070f3;
 }
 
+.colorBlue {
+  color: #0070f3;
+}
+.padder {
+  margin: 20px;
+}
+
 .button1 {
   background-color: #0070f3;
   border: 0;

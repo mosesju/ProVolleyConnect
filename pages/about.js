@@ -7,14 +7,14 @@ export default function Home() {
             <main className={styles.main}>
             
                 <NavBar />
-                <div className="col-md-6">
+                <div className="col-md-8">
                     <h1 className={styles.title}>About Us</h1>
                     <p className={styles.description}>what is pvc?</p>
                     <h2 className={styles.subTitle}>Our Team</h2>
                     <h2 className={styles.subTitle}>Pricing</h2>
                     <p className={styles.description}>
-                        If you want to just read a few articles on becoming a pro, you should get our free tier. It will
-                        always be free, and offer good value
+                        If you want to just read our on becoming a pro, join our always free plan.
+                        You'll get all the basics 
                     </p>
                     <p className={styles.description}>
                         If you want to have access to our Discord community, weekly email, more stories and exclusive content
