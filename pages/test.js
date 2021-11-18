@@ -1,8 +1,9 @@
 import FeaturedStory from './components/FeaturedStory'
-import StoryGrid from './components/StoryGrid'
+import AskAQuestion from './components/AskAQuestion'
+import Testimonials from './components/Testimonials'
 
 export default function NavBar() {
     return (
-        <StoryGrid />
+        <Testimonials />
     )
 }

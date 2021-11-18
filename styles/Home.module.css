@@ -163,6 +163,13 @@
 #title {
   padding-bottom: 20px;
 }
+.topBottomSpace {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.topSpace {
+  padding-top: 10px;
+}
 .center-element {
   text-align: center;
 }

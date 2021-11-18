@@ -6,6 +6,10 @@ export default function Learn() {
     return (
         <div>
             <h1>Learn about Professional Volleyball</h1>
+            <div>
+                <h2>Ask us Anything and we will email you or write a post!</h2>
+                <AskAQuestion />
+            </div>
         </div>
     )
 }

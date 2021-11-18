@@ -3,6 +3,7 @@ import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 import { supabase } from '../utils/supbaseClient'
 import { useState, useEffect } from 'react'
+import AskAQuestion from './components/AskAQuestion';
 
 
 export default function Agents() {
@@ -52,6 +53,12 @@ export default function Agents() {
                     })
                 }
             </ul>
+            <div>
+                <h2>
+                    Ask us Anything about Agents!
+                </h2>
+                <AskAQuestion />
+            </div>
         </div>
     )
 }

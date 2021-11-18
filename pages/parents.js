@@ -38,6 +38,10 @@ export default function Parents() {
                     </p>
                 </a>
             </div>
+            <div>
+                <h2>Parents, ask us Anything and we will email you or write a post!</h2>
+                <AskAQuestion />
+            </div>
         </main>
     )
 }

@@ -1,6 +1,7 @@
 import NavBar from './components/NavBar'
 import styles from '../styles/Home.module.css'
 import FeaturedStory from './components/FeaturedStory'
+import AskAQuestion from './components/AskAQuestion'
 
 export default function Athletes() {
     return (
@@ -39,6 +40,10 @@ export default function Athletes() {
                 </a>
             </div>
             <FeaturedStory />
+            <div>
+                <h2>Athletes, ask us Anything and we will email you or write a post!</h2>
+                <AskAQuestion />
+            </div>
         </main>
     )
 }

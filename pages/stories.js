@@ -1,6 +1,7 @@
 import NavBar from './components/NavBar'
 import styles from '../styles/Home.module.css'
 import FeaturedStory from './components/FeaturedStory'
+import AskAQuestion from './components/AskAQuestion'
 
 export default function Stories() {
     return (
@@ -39,6 +40,10 @@ export default function Stories() {
                         To celebrate our launch, we're offering a free pro account for college and professional players. Sign up later.
                     </p>
                 </a>
+            </div>
+            <div>
+                <h2>Submit a request for a story, or propose your own!</h2>
+                <AskAQuestion />
             </div>
         </main>
     )
