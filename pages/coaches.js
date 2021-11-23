@@ -1,5 +1,6 @@
 import NavBar from './components/NavBar'
 import styles from '../styles/Home.module.css'
+import Footer from './components/Footer'
 
 export default function Coaches() {
     return (
@@ -42,6 +43,7 @@ export default function Coaches() {
                 <h2>Coaches, ask us Anything and we will email you or write a post!</h2>
                 <AskAQuestion />
             </div>
+            <Footer />
         </div>
     )
 }

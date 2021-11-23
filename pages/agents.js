@@ -1,13 +1,17 @@
 import NavBar from './components/NavBar';
-import styles from '../styles/Home.module.css'
-import Link from 'next/link'
+import { useRouter } from 'next/router'
 import { supabase } from '../utils/supbaseClient'
 import { useState, useEffect } from 'react'
 import AskAQuestion from './components/AskAQuestion';
+import Footer from './components/Footer';
+import styles from '../styles/Home.module.css'
+
 
 
 export default function Agents() {
-    const [agents, setAgents] = useState([])
+    const [agents, setAgents] = useState([]);
+    const router = useRouter();
+
     useEffect(()=>{
         const fetchData = async()=>{
             const { data, error } = await supabase
@@ -26,9 +30,9 @@ export default function Agents() {
         })
     },[])
     return (
-        <div className="container">
+        <div className={ styles.main }>
             <NavBar />
-
+            <div className="col-md-8" align="center">
             <div className="jumbotron">
                 <h1 className="display-4">Agents</h1>
                 <p className="lead">The answers to your questions about Agents</p>
@@ -39,26 +43,17 @@ export default function Agents() {
                 </p> */}
             </div>
             {/* https://volleyconnect.ghost.io/tag/agents/ */}
-            <ul>
-                <h2 className="display-5">Agent Profiles</h2>
-                {
-                    agents.map((agent, i)=>{
-                        return (
-                            <Link href={`/agents/${agent.id}`}>
-                                <li className="list-group-item" key={i}>
-                                    {agent.name}
-                                </li>
-                            </Link>
-                        )
-                    })
-                }
-            </ul>
+            
             <div>
                 <h2>
                     Ask us Anything about Agents!
                 </h2>
                 <AskAQuestion />
             </div>
+            </div>
+           
+            <Footer />
         </div>
+        
     )
 }

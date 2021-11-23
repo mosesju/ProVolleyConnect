@@ -2,6 +2,7 @@ import NavBar from './components/NavBar'
 import styles from '../styles/Home.module.css'
 import FeaturedStory from './components/FeaturedStory'
 import AskAQuestion from './components/AskAQuestion'
+import Footer from './components/Footer'
 
 export default function Stories() {
     return (
@@ -45,6 +46,7 @@ export default function Stories() {
                 <h2>Submit a request for a story, or propose your own!</h2>
                 <AskAQuestion />
             </div>
+            <Footer />
         </main>
     )
 }

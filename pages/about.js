@@ -1,5 +1,6 @@
 import styles from '../styles/Home.module.css'
 import NavBar from './components/NavBar'
+import Footer from './components/Footer'
 
 
 export default function Home() {
@@ -22,6 +23,7 @@ export default function Home() {
                         who can't afford our paid plan, send us an email and we can figure something out.
                     </p>
                 </div>
+                <Footer />
             </main>
         
     )

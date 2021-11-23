@@ -1,21 +1,28 @@
 import { useForm } from "react-hook-form";
 import { supabase } from '../../utils/supbaseClient'
+import styles from '../../styles/Home.module.css'
+import { useRouter } from 'next/router'
 
 export default function AskAQuestion() {
     const {register, handleSubmit, formState: {errors} } = useForm();
-
-    const onSubmit = async (formInput) => {
-        console.log(formInput)
+    const router = useRouter()
+    const submitData = async (formInput)=>{
         const {data, error } = await supabase
             .from('questions')
             .insert([
                 formInput
             ])
     }
+
+    const onSubmit = async (formInput) => {
+        submitData(formInput).then(()=>{
+            router.push('/thank-you')
+        })
+    }
     return(
         <div>
             <form onSubmit={handleSubmit(onSubmit)}>
-                <div className="form-group">
+                <div className={`form-group ${styles.spacing}`}>
                     <label htmlFor="name">What's your Name?</label>
                     <input {...register("name")} className="form-control" id="name" placeholder="Name" />
                 </div>

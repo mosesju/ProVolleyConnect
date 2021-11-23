@@ -3,13 +3,13 @@ import styles from '../../styles/Home.module.css'
 
 export default function ExploreCols() {
     return (
-        <div className="col-md-10">
+        <div className={`col-md-10 ${styles.spacing}`}>
         <div className="row">
           <div className="col-md">
             <div className="card">
             <div class="card-body">
-                <h5 class="card-title">Explore Agents</h5>
-                <h6 class={`card-subtitle mb-2 text-muted ${styles.topSpace}`}>Get all the information you need to understand Agents and how they work</h6>
+                <p class="card-title display-6">Explore Agents</p>
+                <h6 class={`lead mb-2 text-muted ${styles.topSpace}`}>Get all the information you need to understand Agents and how they work</h6>
                 <ul className={styles.topBottomSpace}>
                     <Link href="/agents">
                         <li>
@@ -40,8 +40,8 @@ export default function ExploreCols() {
           <div className="col-md">
             <div className="card">
                 <div class="card-body">
-                <h5 class="card-title">Athletes</h5>
-                <h6 class={`card-subtitle mb-2 text-muted ${styles.topSpace}`}>Explore a few of the things you should know <em>should</em> know before your pro career</h6>
+                <h5 class="card-title display-6">For Athletes</h5>
+                <h6 class={`lead mb-2 text-muted ${styles.topSpace}`}>Explore a few of the things you should know <em>should</em> know before your pro career</h6>
                 <ul className={styles.topBottomSpace}>
                     <Link href="https://volleyconnect.ghost.io/learn-to-be-a-pro/">
                         <li>
@@ -72,8 +72,8 @@ export default function ExploreCols() {
           <div className="col-md">
             <div className="card">
                 <div class="card-body">
-                <h5 class="card-title">Parents</h5>
-                <h6 class={`card-subtitle mb-2 text-muted ${styles.topSpace}`}>Explore all the questions you want answered, but your child doesn't know yet</h6>
+                <h5 class="card-title display-6">For Parents</h5>
+                <h6 class={`lead mb-2 text-muted ${styles.topSpace}`}>Explore all the questions you want answered, but your child doesn't know yet</h6>
                 <ul className={styles.topBottomSpace}>
                     <Link href="https://volleyconnect.ghost.io/general-questions-answered-for-parents/">
                         <li>
@@ -104,8 +104,8 @@ export default function ExploreCols() {
           <div className="col-md">
             <div className="card">
                 <div class="card-body">
-                <h5 class="card-title">Coaches</h5>
-                <h6 class={`card-subtitle mb-2 text-muted ${styles.topSpace}`}>Explore the information you need to help your players get to the next level</h6>
+                <h5 class="card-title display-6">For Coaches</h5>
+                <h6 class={`lead mb-2 text-muted ${styles.topSpace}`}>Explore the information you need to help your players get to the next level</h6>
                 <ul className={styles.topBottomSpace}>
                     <Link href="https://volleyconnect.ghost.io/all-about-agents/">
                         <li>

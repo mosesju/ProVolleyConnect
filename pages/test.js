@@ -1,9 +1,11 @@
 import FeaturedStory from './components/FeaturedStory'
 import AskAQuestion from './components/AskAQuestion'
-import Testimonials from './components/Testimonials'
 
-export default function NavBar() {
+export default function Test() {
     return (
-        <Testimonials />
+        <div>
+            test functions
+            if you found this page... go back to the normal website
+        </div>
     )
 }
