@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import NavBar from './components/NavBar'
-import styles from '../styles/home.css'
+import styles from '../styles/Home.module.css'
 import ExploreCols from './components/ExploreCols'
 import HomeJumbotron from './components/HomeJumbotron'
 import Testimonials from './components/Testimonials'
