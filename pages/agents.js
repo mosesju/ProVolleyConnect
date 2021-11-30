@@ -4,7 +4,7 @@ import { supabase } from '../utils/supbaseClient'
 import { useState, useEffect } from 'react'
 import AskAQuestion from './components/AskAQuestion';
 import Footer from './components/Footer';
-import styles from '../styles/Home.css'
+import styles from '../styles/Home.module.css'
 
 
 
