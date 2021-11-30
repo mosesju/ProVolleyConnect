@@ -1,4 +1,4 @@
-import styles from '../../styles/Home.css'
+import styles from '../../styles/home.css'
 
 export default function HomeJumbotron() {
     return (

@@ -1,6 +1,6 @@
 import { useForm } from "react-hook-form";
 import { supabase } from '../../utils/supbaseClient'
-import styles from '../../styles/Home.module.css'
+import styles from '../../styles/home.css'
 import { useRouter } from 'next/router'
 
 export default function AskAQuestion() {
