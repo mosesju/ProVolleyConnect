@@ -74,7 +74,7 @@ const Details = () => {
                     <img  src={ agent.image } className="d-flex justify-content-center rounded-circle"/>
                         <div className="mt-3">
                             <h1>{agent.name}</h1>
-                        <p className="text-secondary mb-1">Full Stack Developer</p>
+                        <p className="text-secondary mb-1">Agent</p>
                         <p className="text-muted font-size-sm">{ agent.nationality }</p>
                         {/* <button className="btn btn-primary">Follow</button> */}
                         {/* Should be an email address */}

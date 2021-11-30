@@ -30,7 +30,7 @@ export default function Home() {
           </div>
           <p className={styles.description}>
             Professional Volleyball is often seen as untrustworthy, and unreliable. Agents are often painted
-            as bad guys, because a few of them are terrible. Some clubs don&apos;t pay their players. Too many "experts" 
+            as bad guys, because a few of them are terrible. Some clubs don&apos;t pay their players. Too many &quot;experts&quot; 
             base their opinions on feelings and stories rather than facts.
           </p>
           <span className={`${styles.title} d-flex justify-content-center`}>We got tired of it</span> 

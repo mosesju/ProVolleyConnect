@@ -35,7 +35,7 @@ export default function Coaches() {
                 >
                     <h2>Get your pro account &rarr;</h2>
                     <p>
-                        To celebrate our launch, we're offering a free pro account for college and professional players. Sign up later.
+                        To celebrate our launch, we&apos;re offering a free pro account for college and professional players. Sign up later.
                     </p>
                 </a>
             </div>

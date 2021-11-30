@@ -23,13 +23,13 @@ export default function AskAQuestion() {
         <div>
             <form onSubmit={handleSubmit(onSubmit)}>
                 <div className={`form-group ${styles.spacing}`}>
-                    <label htmlFor="name">What's your Name?</label>
+                    <label htmlFor="name">What&apos;s your Name?</label>
                     <input {...register("name")} className="form-control" id="name" placeholder="Name" />
                 </div>
                 <div className="form-group">
-                    <label htmlFor="exampleInputEmail1">What's your email?</label>
+                    <label htmlFor="exampleInputEmail1">What&apos;s your email?</label>
                     <input {...register("email")} className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
-                    <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
+                    <small id="emailHelp" className="form-text text-muted">We&apos;ll never share your email with anyone else.</small>
                 </div>
                 <div className="form-group">
                     <label htmlFor="question">Ask us your Question!</label>

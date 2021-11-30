@@ -7,9 +7,9 @@ export default function ExploreCols() {
         <div className="row">
           <div className="col-md">
             <div className="card">
-            <div class="card-body">
-                <p class="card-title display-6">Explore Agents</p>
-                <h6 class={`lead mb-2 text-muted ${styles.topSpace}`}>Get all the information you need to understand Agents and how they work</h6>
+            <div className="card-body">
+                <p className="card-title display-6">Explore Agents</p>
+                <h6 className={`lead mb-2 text-muted ${styles.topSpace}`}>Get all the information you need to understand Agents and how they work</h6>
                 <ul className={styles.topBottomSpace}>
                     <Link href="/agents">
                         <li>
@@ -28,7 +28,7 @@ export default function ExploreCols() {
                         </li>
                     </Link>
                 </ul>
-                {/* <p class="card-text">extra text</p> */}
+                {/* <p className="card-text">extra text</p> */}
                 <Link href="/agents">
                     <button className="btn btn-primary">
                         Read More
@@ -39,9 +39,9 @@ export default function ExploreCols() {
           </div>
           <div className="col-md">
             <div className="card">
-                <div class="card-body">
-                <h5 class="card-title display-6">For Athletes</h5>
-                <h6 class={`lead mb-2 text-muted ${styles.topSpace}`}>Explore a few of the things you should know <em>should</em> know before your pro career</h6>
+                <div className="card-body">
+                <h5 className="card-title display-6">For Athletes</h5>
+                <h6 className={`lead mb-2 text-muted ${styles.topSpace}`}>Explore a few of the things you should know <em>should</em> know before your pro career</h6>
                 <ul className={styles.topBottomSpace}>
                     <Link href="https://volleyconnect.ghost.io/learn-to-be-a-pro/">
                         <li>
@@ -60,7 +60,7 @@ export default function ExploreCols() {
                         </li>
                     </Link>
                 </ul>
-                {/* <p class="card-text">extra text</p> */}
+                {/* <p className="card-text">extra text</p> */}
                 <Link href="/athletes">
                     <button className="btn btn-primary">
                         Read More
@@ -71,9 +71,9 @@ export default function ExploreCols() {
           </div>
           <div className="col-md">
             <div className="card">
-                <div class="card-body">
-                <h5 class="card-title display-6">For Parents</h5>
-                <h6 class={`lead mb-2 text-muted ${styles.topSpace}`}>Explore all the questions you want answered, but your child doesn't know yet</h6>
+                <div className="card-body">
+                <h5 className="card-title display-6">For Parents</h5>
+                <h6 className={`lead mb-2 text-muted ${styles.topSpace}`}>Explore all the questions you want answered, but your child doesn't know yet</h6>
                 <ul className={styles.topBottomSpace}>
                     <Link href="https://volleyconnect.ghost.io/general-questions-answered-for-parents/">
                         <li>
@@ -92,7 +92,7 @@ export default function ExploreCols() {
                         </li>
                     </Link>
                 </ul>
-                {/* <p class="card-text">extra text</p> */}
+                {/* <p className="card-text">extra text</p> */}
                 <Link href="/agents">
                     <button className="btn btn-primary">
                         Read More
@@ -103,9 +103,9 @@ export default function ExploreCols() {
           </div>
           <div className="col-md">
             <div className="card">
-                <div class="card-body">
-                <h5 class="card-title display-6">For Coaches</h5>
-                <h6 class={`lead mb-2 text-muted ${styles.topSpace}`}>Explore the information you need to help your players get to the next level</h6>
+                <div className="card-body">
+                <h5 className="card-title display-6">For Coaches</h5>
+                <h6 className={`lead mb-2 text-muted ${styles.topSpace}`}>Explore the information you need to help your players get to the next level</h6>
                 <ul className={styles.topBottomSpace}>
                     <Link href="https://volleyconnect.ghost.io/all-about-agents/">
                         <li>
@@ -125,7 +125,7 @@ export default function ExploreCols() {
                         </li>
                     </Link>
                 </ul>
-                {/* <p class="card-text">extra text</p> */}
+                {/* <p className="card-text">extra text</p> */}
                 <Link href="/agents">
                     <button className="btn btn-primary">
                         Read More
