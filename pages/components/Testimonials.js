@@ -1,4 +1,4 @@
-import styles from '../../styles/Home.module.css'
+import styles from '../../styles/Home.css'
 
 export default function Testimonials() {
   const johnSperaw = "https://xvunwquprjgywjthgato.supabase.in/storage/v1/object/sign/util-photos/John-Speraw.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ1dGlsLXBob3Rvcy9Kb2huLVNwZXJhdy5wbmciLCJpYXQiOjE2Mzc2NzAwOTUsImV4cCI6MTk1MzAzMDA5NX0.GyzdqfDFCHPSxBOPd_2FRTRd-LN2_B4IHswH7qBYVuM"

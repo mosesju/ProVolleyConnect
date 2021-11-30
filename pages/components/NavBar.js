@@ -1,7 +1,6 @@
 import React from 'react';
 import { Nav, Button } from 'react-bootstrap';
 import Link from 'next/link';
-import styles from '../../styles/Home.module.css'
 
 
 export default function NavBar() {
