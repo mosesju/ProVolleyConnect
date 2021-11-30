@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react'
 import { supabase } from '../../utils/supbaseClient'
 import Link from 'next/link'
 import NavBar from '../components/NavBar';
-import styles from '../../styles/Home.module.css'
 
 
 const Details = () => {
