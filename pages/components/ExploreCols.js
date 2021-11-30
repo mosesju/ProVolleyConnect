@@ -73,7 +73,7 @@ export default function ExploreCols() {
             <div className="card">
                 <div className="card-body">
                 <h5 className="card-title display-6">For Parents</h5>
-                <h6 className={`lead mb-2 text-muted ${styles.topSpace}`}>Explore all the questions you want answered, but your child doesn't know yet</h6>
+                <h6 className={`lead mb-2 text-muted ${styles.topSpace}`}>Explore all the questions you want answered, but your child doesn&apos;t know yet</h6>
                 <ul className={styles.topBottomSpace}>
                     <Link href="https://volleyconnect.ghost.io/general-questions-answered-for-parents/">
                         <li>

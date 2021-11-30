@@ -1,6 +1,7 @@
 import NavBar from './components/NavBar'
 import styles from '../styles/Home.css'
 import Footer from './components/Footer'
+import AskAQuestion from './components/AskAQuestion'
 
 export default function Coaches() {
     return (
