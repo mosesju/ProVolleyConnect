@@ -1,8 +1,9 @@
 import styles from '../../styles/Home.module.css'
 import NavBar from '../components/NavBar'
 import Footer from '../components/Footer'
+import dynamic from 'next/dynamic'
 
-export default function AgentList() {
+const AgentList = () => {
     <div className={styles.main}>
         <NavBar />
         <ul>
@@ -20,3 +21,7 @@ export default function AgentList() {
         <Footer />
     </div>
 }
+
+export default dynamic(() => Promise.resolve(AgentList), {
+    ssr:false
+});

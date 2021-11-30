@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { supabase } from '../../utils/supbaseClient'
 import Link from 'next/link'
 import NavBar from '../components/NavBar';
-
+import dynamic from 'next/dynamic'
 
 const Details = () => {
     // can use pathname for now but need to figure out how to pass a ref
@@ -95,4 +95,6 @@ const Details = () => {
     )
 }
 
-export default Details;
+export default dynamic(() => Promise.resolve(Details), {
+    ssr:false
+});
