@@ -5,6 +5,7 @@ import { useState, useEffect } from 'react'
 import AskAQuestion from './components/AskAQuestion';
 import Footer from './components/Footer';
 import styles from '../styles/Home.module.css'
+import Link from 'next/link'
 
 
 
@@ -37,10 +38,13 @@ export default function Agents() {
                 <h1 className="display-4">Agents</h1>
                 <p className="lead">The answers to your questions about Agents</p>
                 <hr className="my-4" />
-                <p>Read more articles about Agents and check out our list of Agents</p>
+                <p>Read more articles about Agents and <Link href='/agents/list'>check out our list of Agents</Link></p>
                 {/* <p className="lead">
                     <a className="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
                 </p> */}
+                <Link href="/agents/list">
+                    <button className="btn btn-primary">See our list of Agents</button>
+                </Link>
             </div>
             {/* https://volleyconnect.ghost.io/tag/agents/ */}
             
