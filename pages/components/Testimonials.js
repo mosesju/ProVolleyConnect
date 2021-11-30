@@ -17,8 +17,8 @@ export default function Testimonials() {
                 <div className="p-2 bd-highlight mb-auto">
                   <div className="d-flex flex-column bd-highlight mb-3">
                       <p className="display-6">John Speraw</p>
-                      <h6 className=""> Head College &amp; USA Men's National Team Coach</h6>
-                    <div className="lead">I'm excited to have a trusted resource for professional volleyball information. Over the last few years I've had athletes consistently come up to me and ask what it takes to go pro.  How do they find an agent? When does the process start? What are the NCAA rules? The list goes on and on. Finally I can point them to a resource that has all the information they need and the stories of the athletes who have made the process work. </div>
+                      <h6> Head College &amp; USA Men&apos;s National Team Coach</h6>
+                    <div className="lead">I&apos;m excited to have a trusted resource for professional volleyball information. Over the last few years I&apos;ve had athletes consistently come up to me and ask what it takes to go pro.  How do they find an agent? When does the process start? What are the NCAA rules? The list goes on and on. Finally I can point them to a resource that has all the information they need and the stories of the athletes who have made the process work. </div>
                   </div>
                 </div>
               </div>          
@@ -36,8 +36,8 @@ export default function Testimonials() {
                 <div className="p-2 bd-highlight mb-auto">
                   <div className="d-flex flex-column bd-highlight mb-3">
                       <p className="display-6">John Speraw</p>
-                      <h6 className=""> Head College &amp; USA Men's National Team Coach</h6>
-                    <div className="lead">I'm excited to have a trusted resource for professional volleyball information. Over the last few years I've had athletes consistently come up to me and ask what it takes to go pro.  How do they find an agent? When does the process start? What are the NCAA rules? The list goes on and on. Finally I can point them to a resource that has all the information they need and the stories of the athletes who have made the process work. </div>
+                      <h6 className=""> Head College &amp; USA Men&apos;s National Team Coach</h6>
+                    <div className="lead">I&apos;m excited to have a trusted resource for professional volleyball information. Over the last few years I&apos;ve had athletes consistently come up to me and ask what it takes to go pro.  How do they find an agent? When does the process start? What are the NCAA rules? The list goes on and on. Finally I can point them to a resource that has all the information they need and the stories of the athletes who have made the process work. </div>
                   </div>
                 </div>
               </div>          

@@ -1,5 +1,6 @@
 import NavBar from './components/NavBar'
 import Footer from './components/Footer'
+import AskAQuestion from './components/AskAQuestion'
 
 export default function Learn() {
     // This will be the page with the list of the most important pages

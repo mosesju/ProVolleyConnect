@@ -30,12 +30,12 @@ export default function Home() {
           </div>
           <p className={styles.description}>
             Professional Volleyball is often seen as untrustworthy, and unreliable. Agents are often painted
-            as bad guys, because a few of them are terrible. Some clubs don't pay their players. Too many "experts" 
+            as bad guys, because a few of them are terrible. Some clubs don&apos;t pay their players. Too many "experts" 
             base their opinions on feelings and stories rather than facts.
           </p>
           <span className={`${styles.title} d-flex justify-content-center`}>We got tired of it</span> 
           <p className={styles.description}>
-          That's why we created ProGlobalVolleyball. We've always been 100% independent and always will be. We 
+          That&apos;s why we created ProGlobalVolleyball. We&apos;ve always been 100% independent and always will be. We 
           will fight to remain independent of outside influence and provide unbiased and trusted information.
           </p>
           <div className="d-flex justify-content-center">
@@ -68,7 +68,7 @@ export default function Home() {
                 href="https://github.com/vercel/next.js/tree/master/examples"
                 className={styles.card}
               >
-                <h2>Read your favorite Player's Stories &rarr;</h2>
+                <h2>Read your favorite Player&apos;s Stories &rarr;</h2>
                 <p>Exclusive pieces, as told by the athletes</p>
               </a>
               <a href="#" className={styles.card}>

@@ -9,7 +9,7 @@ export default function Stories() {
         <main className={styles.main}>
             <NavBar />
             <h1>Stories</h1>
-            <h2>What it's like to actually be a pro</h2>
+            <h2>What it&apos;s like to actually be a pro</h2>
             <hr className={styles.dividerLine}></hr>
             <FeaturedStory />
 
@@ -38,7 +38,7 @@ export default function Stories() {
                 >
                     <h2>Get your pro account &rarr;</h2>
                     <p>
-                        To celebrate our launch, we're offering a free pro account for college and professional players. Sign up later.
+                        To celebrate our launch, we&apos;re offering a free pro account for college and professional players. Sign up later.
                     </p>
                 </a>
             </div>

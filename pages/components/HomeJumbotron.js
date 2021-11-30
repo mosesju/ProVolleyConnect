@@ -5,7 +5,7 @@ export default function HomeJumbotron() {
         <div className="jumbotron">
           {/* <h1 className={styles.gradientText} id={styles.title}></h1>   */}
           <p className={`display-5 ${styles.colorBlue} text-center`}>Volleyball information you can <strong>Trust</strong></p>
-          <img src="volleyball_equip.jpeg" class="img-fluid" alt="Banner image ball and hands"></img>
+          <img src="volleyball_equip.jpeg" className="img-fluid" alt="Banner image ball and hands"></img>
           <p className="lead text-center">
             <a className={`btn btn-primary btn-lg ${styles.padder}`} href="#" role="button">Get your FREE membership!</a>
           </p>
