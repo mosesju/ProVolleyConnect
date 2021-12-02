@@ -6,12 +6,21 @@ import AskAQuestion from './components/AskAQuestion';
 import Footer from './components/Footer';
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
+import Jumbotron from './components/Jumbotron';
 
 
 
 export default function Agents() {
     const [agents, setAgents] = useState([]);
     const router = useRouter();
+    const jumboProps = {
+        image: "volleyball_equip.jpeg",
+        imageAlt: "Banner image ball and hands",
+        headline: 'Learn all about Agents, here!',
+        buttonText: 'Get your FREE membership!',
+        buttonLink: 'https://volleyconnect.ghost.io/#/portal/signup',
+        subHeading: 'We have no conflicts of interest and we aren\'t an agency. We are exclusively a source of information.'
+    }
 
     useEffect(()=>{
         const fetchData = async()=>{
@@ -33,6 +42,7 @@ export default function Agents() {
     return (
         <div className={ styles.main }>
             <NavBar />
+            <Jumbotron props={ jumboProps }/>
             <div className="col-md-8" align="center">
             <div className="jumbotron">
                 <h1 className="display-4">Agents</h1>

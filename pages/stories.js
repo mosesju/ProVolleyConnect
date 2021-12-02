@@ -5,9 +5,18 @@ import AskAQuestion from './components/AskAQuestion'
 import Footer from './components/Footer'
 
 export default function Stories() {
+    const jumboProps = {
+        image: "volleyball_equip.jpeg",
+        imageAlt: "Banner image ball and hands",
+        headline: 'Stories',
+        buttonText: 'Check out the whole collection!',
+        buttonLink: '#',
+        subHeading: 'Read the stories from our favorite professional Volleyball players, current and former!'
+    }
     return (
         <main className={styles.main}>
             <NavBar />
+            <Jumbotron props={ jumboProps } />
             <h1>Stories</h1>
             <h2>What it&apos;s like to actually be a pro</h2>
             <hr className={styles.dividerLine}></hr>

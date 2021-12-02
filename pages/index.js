@@ -2,12 +2,20 @@ import Head from 'next/head'
 import NavBar from './components/NavBar'
 import styles from '../styles/Home.module.css'
 import ExploreCols from './components/ExploreCols'
-import HomeJumbotron from './components/HomeJumbotron'
+import Jumbotron from './components/Jumbotron'
 import Testimonials from './components/Testimonials'
 import Footer from './components/Footer'
 import Link from 'next/link'
 
 export default function Home() {
+  const jumboProps = {
+    image: "volleyball_equip.jpeg",
+    imageAlt: "Banner image ball and hands",
+    headline: 'Volleyball information you can Trust',
+    buttonText: 'Get your FREE membership!',
+    buttonLink: 'https://volleyconnect.ghost.io/#/portal/signup',
+    subHeading: 'We have no conflicts of interest: Our team is composed of former pros and coaches; all we do all day, every day, is watch and analyze professional Volleyball, to answer your questions and tell the games stories.'
+  }
   return (
     <div className={styles.main}>
       <Head>
@@ -17,7 +25,7 @@ export default function Home() {
       </Head>
       <div className="col-md-8" align="center">
         <NavBar />
-        <HomeJumbotron />
+        <Jumbotron props={ jumboProps }/>
         <div className={ styles.spacing }>
           <Testimonials /> 
         </div>
@@ -82,10 +90,7 @@ export default function Home() {
               </a>
             </div>
           </div>
-          
         </div>
-        
-        
       </div>
       <Footer />
     </div>

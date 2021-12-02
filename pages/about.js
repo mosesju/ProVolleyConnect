@@ -1,15 +1,24 @@
 import styles from '../styles/Home.module.css'
 import NavBar from './components/NavBar'
 import Footer from './components/Footer'
+import Jumbotron from './components/Jumbotron'
 
 
 export default function Home() {
+    const jumboProps = {
+        image: "volleyball_equip.jpeg",
+        imageAlt: "Banner image ball and hands",
+        headline: 'About Us',
+        buttonText: 'Get your FREE membership!',
+        buttonLink: 'https://volleyconnect.ghost.io/#/portal/signup',
+        subHeading: 'We are a neutral group of former pros and coaches who want to make stories and information about pro Volleyball available to every Volleyball fan.'
+    }
     return (
             <main className={styles.main}>
             
                 <NavBar />
+                <Jumbotron props={ jumboProps } />
                 <div className="col-md-8">
-                    <h1 className={styles.title}>About Us</h1>
                     <p className={styles.description}>what is pvc?</p>
                     <h2 className={styles.subTitle}>Our Team</h2>
                     <h2 className={styles.subTitle}>Pricing</h2>

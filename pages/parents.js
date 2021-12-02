@@ -4,9 +4,18 @@ import Footer from './components/Footer'
 import AskAQuestion from './components/AskAQuestion'
 
 export default function Parents() {
+    const jumboProps = {
+        image: "volleyball_equip.jpeg",
+        imageAlt: "Banner image ball and hands",
+        headline: 'Parents',
+        buttonText: 'Get your FREE membership!',
+        buttonLink: 'https://volleyconnect.ghost.io/#/portal/signup',
+        subHeading: 'Wish you could better understand the journey your child has been talking about? We have the answers to your questions, here!'
+    }
     return (
         <main className={styles.main}>
             <NavBar />
+            <Jumbotron props={ jumboProps } />
             <h1>Parents</h1>
             <h2>Get your questions answered</h2>
             <hr className={styles.dividerLine}></hr>

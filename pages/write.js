@@ -5,10 +5,17 @@ import AskAQuestion from './components/AskAQuestion'
 
 export default function Learn() {
     // Where athletes will go to learn how to submit their stories
+    const jumboProps = {
+        image: "volleyball_equip.jpeg",
+        imageAlt: "Banner image ball and hands",
+        headline: 'Want to tell your story?',
+        subHeading: 'We are always looking for pros to come and tell us about their experiences. Give us a quick summary of who you are and we will reach out to you ASAP'
+    }
     return (
         <main className={styles.main}>
             {/* Embed airtable or something to collect names */}
-            <h1>Want to tell your story?</h1>
+            <NavBar />
+            <Jumbotron props={ jumboProps } />
             <p>Give us a quick summary of who you are and we will reach out to you ASAP</p>
             <AskAQuestion />
             <Footer />

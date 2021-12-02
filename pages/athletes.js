@@ -5,12 +5,19 @@ import AskAQuestion from './components/AskAQuestion'
 import Footer from './components/Footer'
 
 export default function Athletes() {
+    const jumboProps = {
+        image: "volleyball_equip.jpeg",
+        imageAlt: "Banner image ball and hands",
+        headline: 'Athletes',
+        buttonText: 'Get your FREE membership!',
+        buttonLink: 'https://volleyconnect.ghost.io/#/portal/signup',
+        subHeading: 'Learn what to expect from your Professional Volleyball Experience'
+    }
     return (
         <main className={styles.main}>
             <NavBar />
+            <Jumbotron props={ jumboProps } />
             <FeaturedStory />
-            <h1>Athletes</h1>
-            <h2>Learn what to expect from your Professional Volleyball Experience</h2>
             <hr className={styles.dividerLine}></hr>
             <div className={styles.grid}>
                 <a href="#" className={styles.card}>
