@@ -8,6 +8,7 @@ export default function Athletes() {
     return (
         <main className={styles.main}>
             <NavBar />
+            <FeaturedStory />
             <h1>Athletes</h1>
             <h2>Learn what to expect from your Professional Volleyball Experience</h2>
             <hr className={styles.dividerLine}></hr>
@@ -40,7 +41,6 @@ export default function Athletes() {
                     </p>
                 </a>
             </div>
-            <FeaturedStory />
             <div>
                 <h2>Athletes, ask us Anything and we will email you or write a post!</h2>
                 <AskAQuestion />

@@ -24,8 +24,19 @@ export default function FeaturedStory() {
                         src={headshot} 
                         className="d-flex justify-content-center rounded-circle"
                     />
-                    <Card.Title><h2>{athlete.name}</h2></Card.Title>
-                <Card.Body><strong>Current Club: {athlete.playsFor}</strong><p>{athlete.storySummary}</p></Card.Body>
+                    <Card.Title>
+                        <div className="d-flex justify-content-center">
+                            <h2>{athlete.name}</h2>
+                        </div>
+                    </Card.Title>
+                    <Card.Body>
+                        <div className="d-flex justify-content-center">
+                            <strong>Current Club: {athlete.playsFor}</strong>
+                        </div>
+                        <div className="d-flex justify-content-center">
+                            <p>{athlete.storySummary}</p>
+                        </div>
+                    </Card.Body>
                 </Card>
                 </div>
             </Link>
