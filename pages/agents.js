@@ -1,46 +1,31 @@
 import NavBar from './components/NavBar';
-import { useRouter } from 'next/router'
-import { supabase } from '../utils/supbaseClient'
-import { useState, useEffect } from 'react'
 import AskAQuestion from './components/AskAQuestion';
 import Footer from './components/Footer';
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 import Jumbotron from './components/Jumbotron';
+import Head from 'next/head'
 
 
 
 export default function Agents() {
-    const [agents, setAgents] = useState([]);
-    const router = useRouter();
     const jumboProps = {
         image: "volleyball_equip.jpeg",
         imageAlt: "Banner image ball and hands",
         headline: 'Learn all about Agents, here!',
         buttonText: 'Get your FREE membership!',
-        buttonLink: 'https://volleyconnect.ghost.io/#/portal/signup',
+        buttonLink: 'https://blog.volleyhead.com/#/portal/signup',
         subHeading: 'We have no conflicts of interest and we aren\'t an agency. We are exclusively a source of information.'
     }
+    const headProps = {
+        title: 'About Volleyhead',
+        metaContent: ''
+    }
 
-    useEffect(()=>{
-        const fetchData = async()=>{
-            const { data, error } = await supabase
-                .from('Agents')
-                .select(`
-                    name,
-                    id
-                `)
-            return data;
-        }
-        fetchData().then((data)=>{
-            console.log(data)
-            setAgents(data)
-        }).catch(error=>{
-            console.log(error)
-        })
-    },[])
+    
     return (
         <div className={ styles.main }>
+            <Head props={ headProps } />
             <NavBar />
             <Jumbotron props={ jumboProps }/>
             <div className="col-md-8" align="center">

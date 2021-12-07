@@ -10,7 +10,7 @@ export default function Stories() {
         imageAlt: "Banner image ball and hands",
         headline: 'Stories',
         buttonText: 'Check out the whole collection!',
-        buttonLink: '#',
+        buttonLink: 'https://blog.volleyhead.com/#/portal/signup',
         subHeading: 'Read the stories from our favorite professional Volleyball players, current and former!'
     }
     return (

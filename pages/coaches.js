@@ -9,7 +9,7 @@ export default function Coaches() {
         imageAlt: "Banner image ball and hands",
         headline: 'Coaches',
         buttonText: 'Get your FREE membership!',
-        buttonLink: 'https://volleyconnect.ghost.io/#/portal/signup',
+        buttonLink: 'https://blog.volleyhead.com/#/portal/signup',
         subHeading: 'Help your Athletes learn about professional Volleyball... the right way.'
     }
     return (
@@ -21,18 +21,18 @@ export default function Coaches() {
             <hr className={styles.dividerLine}></hr>
 
             <div className={styles.grid}>
-                <a href="#" className={styles.card}>
+                <a href="https://blog.volleyhead.com/#/portal/signup" className={styles.card}>
                     <h2>FAQs for Coaches &rarr;</h2>
-                    <p>We asked coaches what they wanted to know, then did the research for them</p>
+                    <p>Coming Soon</p>
                 </a>
 
-                <a href="#" className={styles.card}>
+                <a href="https://blog.volleyhead.com/skill-levels" className={styles.card}>
                     <h2>Skill Levels &rarr;</h2>
                     <p>Advise your players on what level they might be able to play at</p>
                 </a>
 
                 <a
-                    href="#"
+                    href="https://blog.volleyhead.com/timelines"
                     className={styles.card}
                 >
                     <h2>Timelines &rarr;</h2>
@@ -40,7 +40,7 @@ export default function Coaches() {
                 </a>
 
                 <a
-                    href="#"
+                    href="https://blog.volleyhead.com/#/portal/signup"
                     className={styles.card}
                 >
                     <h2>Get your pro account &rarr;</h2>
@@ -51,6 +51,7 @@ export default function Coaches() {
             </div>
             <div>
                 <h2>Coaches, ask us Anything and we will email you or write a post!</h2>
+                <p>If you're interested in getting your team subscribed, email julian@1volley.com</p>
                 <AskAQuestion />
             </div>
             <Footer />

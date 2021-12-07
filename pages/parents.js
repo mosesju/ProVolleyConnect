@@ -9,7 +9,7 @@ export default function Parents() {
         imageAlt: "Banner image ball and hands",
         headline: 'Parents',
         buttonText: 'Get your FREE membership!',
-        buttonLink: 'https://volleyconnect.ghost.io/#/portal/signup',
+        buttonLink: 'https://blog.volleyhead.com/#/portal/signup',
         subHeading: 'Wish you could better understand the journey your child has been talking about? We have the answers to your questions, here!'
     }
     return (
@@ -21,26 +21,26 @@ export default function Parents() {
             <hr className={styles.dividerLine}></hr>
 
             <div className={styles.grid}>
-                <a href="#" className={styles.card}>
+                <a href="https://blog.volleyhead.com/pro-volleyball-healthcare" className={styles.card}>
                     <h2>Healthcare &rarr;</h2>
                     <p>Learn the basics of the healthcare situation for professional Volleyball players</p>
                 </a>
 
-                <a href="#" className={styles.card}>
+                <a href="https://blog.volleyhead.com/living-situation" className={styles.card}>
                     <h2>Living Situation &rarr;</h2>
                     <p>What is the living situation like? Find out, here</p>
                 </a>
 
                 <a
-                    href="#"
+                    href="https://blog.volleyhead.com/what-kind-of-support-do-i-get"
                     className={styles.card}
                 >
                     <h2>Available Support &rarr;</h2>
-                    <p>Mental Health? Physical Health? What support can we expect?</p>
+                    <p>Health? Living? What support can we expect?</p>
                 </a>
 
                 <a
-                    href="#"
+                    href="https://blog.volleyhead.com/career"
                     className={styles.card}
                 >
                     <h2>Career &rarr;</h2>
