@@ -21,8 +21,7 @@ export default function Testimonials() {
                     <div className="lead">I&apos;m excited to have a trusted resource for professional volleyball information. Over the last few years I&apos;ve had athletes consistently come up to me and ask what it takes to go pro.  How do they find an agent? When does the process start? What are the NCAA rules? The list goes on and on. Finally I can point them to a resource that has all the information they need and the stories of the athletes who have made the process work. </div>
                   </div>
                 </div>
-              </div>          
-                
+              </div>            
             </div>
           </div>
           <div className="card" style={{marginTop: '10px'}}>

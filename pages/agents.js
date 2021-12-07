@@ -37,11 +37,44 @@ export default function Agents() {
                 {/* <p className="lead">
                     <a className="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
                 </p> */}
-                <Link href="/agents/list">
+                {/* <Link href="/agents/list">
                     <button className="btn btn-primary">See our list of Agents</button>
-                </Link>
+                </Link> */}
+                <h1 className="display-6">Agent List coming soon!</h1>
+
             </div>
             {/* https://volleyconnect.ghost.io/tag/agents/ */}
+            <div className={styles.grid}>
+                <a href="https://blog.volleyhead.com/all-about-agents/" className={styles.card}>
+                    <h2>All About Agents &rarr;</h2>
+                    <p>The breakdown on what Agents do, why they're important and more!</p>
+                </a>
+
+                <a href="https://blog.volleyhead.com/learning-about-your-agent/" className={styles.card}>
+                    <h2>Learning about your Agent &rarr;</h2>
+                    <p>What should you ask your Agent before you get started?</p>
+                </a>
+
+                <a
+                    href="https://blog.volleyhead.com/compliance"
+                    className={styles.card}
+                >
+                    <h2>NCAA Compliance &rarr;</h2>
+                    <p>What you can and can't say around Agents</p>
+                </a>
+
+                <a
+                    href="https://blog.volleyhead.com/contracts/"
+                    className={styles.card}
+                >
+                    <h2>Contracts &rarr;</h2>
+                    <p>
+                        Discover what a common contract looks like
+                    </p>
+                </a>
+            </div>
+            <div>
+            </div>
             
             <div>
                 <h2>
