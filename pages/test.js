@@ -1,5 +1,6 @@
 import Jumbootron from './components/Jumbotron'
 import styles from '../styles/Home.module.css'
+import GetFreeAccountButton from './components/GetFreeAccount'
 
 export default function Test() {
     const data = {
@@ -11,10 +12,11 @@ export default function Test() {
     }
     return (
         <div className={ styles.main }>
-            <div className="col-md-8">
+            <div className="col-md-8 ">
                 test functions
                 if you found this page... go back to the normal website you beautiful genius
                 <Jumbootron props = { data } />
+                <GetFreeAccountButton />
             </div>
         </div>
     )

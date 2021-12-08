@@ -6,6 +6,8 @@ import Jumbotron from './components/Jumbotron'
 import Testimonials from './components/Testimonials'
 import Footer from './components/Footer'
 import Link from 'next/link'
+import FeaturedStory from './components/FeaturedStory'
+import GetFreeAccountButton from './components/GetFreeAccount'
 
 export default function Home() {
   const jumboProps = {
@@ -30,7 +32,9 @@ export default function Home() {
           <Testimonials /> 
         </div>
       </div>
-        <ExploreCols />
+      <ExploreCols />
+      <GetFreeAccountButton />
+      <FeaturedStory />
       <div className="col-md-8"> 
         <div className={`${styles.spacing}`}>
           <div className="d-flex justify-content-center">

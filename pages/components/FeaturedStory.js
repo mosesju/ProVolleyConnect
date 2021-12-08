@@ -6,14 +6,13 @@ import Link from 'next/link';
 export default function FeaturedStory() {
     // Is this going to be loaded from supabase
     const athlete = {
-        name: "Julian Moses",
-        college: "Lewis",
-        playsFor: "Ibiza",
-        storySummary: "learned a bunch through pain",
-        imageUrl: "",
+        name: "Kyle Dagostino",
+        college: "Stanford",
+        playsFor: "Raison Loimu",
+        storySummary: "Learned about the games politics, and how to advocate for himself... the hard way",
+        imageUrl: "https://xvunwquprjgywjthgato.supabase.in/storage/v1/object/sign/util-photos/KyleDag?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ1dGlsLXBob3Rvcy9LeWxlRGFnIiwiaWF0IjoxNjM4OTYxMzE0LCJleHAiOjE5NTQzMjEzMTR9.DpO_VRds6qkLsO7BVEoXv3hg5RZmt86lENrbrX2ZZmg",
         articleUrl: "https://www.google.com/"
     }
-    const headshot = "https://xvunwquprjgywjthgato.supabase.in/storage/v1/object/sign/agents/headshot.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJhZ2VudHMvaGVhZHNob3QuanBnIiwiaWF0IjoxNjM3MTYxODUzLCJleHAiOjE5NTI1MjE4NTN9.oVqQMlVdHzL5KGeVGN1NJyr12UQkGyf7cZMwybA2a5E"
     return (
         <div className="col-md-6">
             <Link href={athlete.articleUrl} passHref={true}>
@@ -21,7 +20,7 @@ export default function FeaturedStory() {
                 <h1>Our Featured Story</h1>
                 <Card>
                     <img 
-                        src={headshot} 
+                        src={ athlete.imageUrl } 
                         className="d-flex justify-content-center rounded-circle"
                     />
                     <Card.Title>
@@ -34,7 +33,7 @@ export default function FeaturedStory() {
                             <strong>Current Club: {athlete.playsFor}</strong>
                         </div>
                         <div className="d-flex justify-content-center">
-                            <p>{athlete.storySummary}</p>
+                            <p className="lead">{athlete.storySummary}</p>
                         </div>
                     </Card.Body>
                 </Card>
