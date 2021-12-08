@@ -179,7 +179,11 @@
 .center-element {
   text-align: center;
 }
-.jumboShadow {
+.jumboShadowMain {
   color: #0070f3;
   text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+}
+.jumboShadowSub {
+  color: #fff;
+  text-shadow: -1px -1px 0 #0070f3, 1px -1px 0 #0070f3, -1px 1px 0 #0070f3, 1px 1px 0 #0070f3;
 }
