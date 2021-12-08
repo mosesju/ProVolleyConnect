@@ -3,6 +3,7 @@ import styles from '../styles/Home.module.css'
 import FeaturedStory from './components/FeaturedStory'
 import AskAQuestion from './components/AskAQuestion'
 import Footer from './components/Footer'
+import Jumbotron from './components/Jumbotron'
 
 export default function Athletes() {
     const jumboProps = {
@@ -15,9 +16,13 @@ export default function Athletes() {
     }
     return (
         <main className={styles.main}>
+            <div className='col-md-8'>
             <NavBar />
             <Jumbotron props={ jumboProps } />
+            <div className="d-flex justify-content-center">
             <FeaturedStory />
+
+            </div>
             <hr className={styles.dividerLine}></hr>
             <div className={styles.grid}>
                 <a href="https://blog.volleyhead.com/getting-started-with-professional-volleyball/ " className={styles.card}>
@@ -51,6 +56,7 @@ export default function Athletes() {
             <div>
                 <h2>Athletes, ask us Anything and we will email you or write a post!</h2>
                 <AskAQuestion />
+            </div>
             </div>
             <Footer />
         </main>

@@ -2,11 +2,18 @@ import styles from '../../styles/Home.module.css'
 import { useState } from 'react';
 
 const Jumbotron = (props) => {
+    const jumboStyle = {
+      backgroundColor: "#0070f3",
+      backgroundImage: "url(https://xvunwquprjgywjthgato.supabase.in/storage/v1/object/sign/util-photos/volleyball_equip.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ1dGlsLXBob3Rvcy92b2xsZXliYWxsX2VxdWlwLmpwZWciLCJpYXQiOjE2Mzg5NTI1MTYsImV4cCI6MTk1NDMxMjUxNn0.PDKMMj-Syo5PyUiSNMCmECwtauaR8JGjgcaeN0t7lqw)",
+      backgroundSize: "cover",
+      backgroundRepeat: "no-repeat",
+      minWidth:'100%',
+      height: 'auto',
+      padding: '10px'
+    }
     return (
-        <div className="jumbotron">
-          {/* <h1 className={styles.gradientText} id={styles.title}></h1>   */}
-    <p className={`display-5 ${styles.colorBlue} text-center`}>{ props.props.headline }</p>
-          <img src={props.props.image} className="img-fluid" alt={ props.props.imageAlt }></img>
+        <div style={ jumboStyle }>
+          <p className={`display-5 text-center ${styles.jumboShadow}`}>{ props.props.headline }</p>
           {
               props.props.buttonText ? (
                 <p className="lead text-center">
@@ -14,13 +21,21 @@ const Jumbotron = (props) => {
                 </p>
             ): null
           }
-          
-          
-        <p className="lead text-center">{ props.props.subHeading }</p>
-          
-          <hr className="my-4" />
-          {/* <p>It uses utility classes for typography and spacing to space content out within the larger container.</p> */}
+          <p className="lead text-center" style={{ color:'white' }}>{ props.props.subHeading }</p>
         </div>
+        
+        // {/* <div class="bg-image img-fluid" 
+        //     style={{backgroundImage: `url(${imageUrl})`, width:'100%', height:'auto'}}>
+        //   <p className={`display-5 ${styles.colorBlue} text-center`}>{ props.props.headline }</p>
+        //   {
+        //       props.props.buttonText ? (
+        //         <p className="lead text-center">
+        //             <a className={`btn btn-primary btn-lg ${styles.padder}`} href={ props.props.buttonLink } role="button">{ props.props.buttonText }</a>
+        //         </p>
+        //     ): null
+        //   }
+        // </div>
+        // <p className="lead text-center">{ props.props.subHeading }</p> */}
     )
 }
 
