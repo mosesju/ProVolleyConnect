@@ -1,5 +1,7 @@
 import styles from '../../styles/Home.module.css'
 import { useState } from 'react';
+import dynamic from 'next/dynamic'
+
 
 const Jumbotron = (props) => {
     const jumboStyle = {
@@ -27,4 +29,6 @@ const Jumbotron = (props) => {
     )
 }
 
-export default Jumbotron;
+export default dynamic(() => Promise.resolve(Jumbotron), {
+  ssr:false
+});
