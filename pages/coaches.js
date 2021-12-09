@@ -2,6 +2,7 @@ import NavBar from './components/NavBar'
 import styles from '../styles/Home.module.css'
 import Footer from './components/Footer'
 import AskAQuestion from './components/AskAQuestion'
+import Jumbotron from './components/Jumbotron'
 
 export default function Coaches() {
     const jumboProps = {
@@ -13,13 +14,11 @@ export default function Coaches() {
         subHeading: 'Help your Athletes learn about professional Volleyball... the right way.'
     }
     return (
-        <div>
+        <main className={styles.main}>
             <NavBar />
             <Jumbotron props={ jumboProps } />
-            <h1>Coaches</h1>
-            <h2>Help your players become professional Volleyball Players</h2>
             <hr className={styles.dividerLine}></hr>
-
+            <h1>Articles for Coaches</h1>
             <div className={styles.grid}>
                 <a href="https://blog.volleyhead.com/#/portal/signup" className={styles.card}>
                     <h2>FAQs for Coaches &rarr;</h2>
@@ -55,6 +54,6 @@ export default function Coaches() {
                 <AskAQuestion />
             </div>
             <Footer />
-        </div>
+        </main>
     )
 }

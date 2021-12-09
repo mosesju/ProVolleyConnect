@@ -16,9 +16,9 @@ export default function Athletes() {
     }
     return (
         <main className={styles.main}>
-            <div className='col-md-8'>
             <NavBar />
             <Jumbotron props={ jumboProps } />
+            <div className='col-md-8'>
             <div className="d-flex justify-content-center">
             <FeaturedStory />
 

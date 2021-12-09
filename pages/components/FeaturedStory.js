@@ -13,11 +13,12 @@ export default function FeaturedStory() {
         imageUrl: "https://xvunwquprjgywjthgato.supabase.in/storage/v1/object/sign/util-photos/KyleDag?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ1dGlsLXBob3Rvcy9LeWxlRGFnIiwiaWF0IjoxNjM4OTYxMzE0LCJleHAiOjE5NTQzMjEzMTR9.DpO_VRds6qkLsO7BVEoXv3hg5RZmt86lENrbrX2ZZmg",
         articleUrl: "https://www.google.com/"
     }
+    console.log(typeof(athlete.articleUrl))
     return (
-        <div className="col-md-6">
-            <Link href={athlete.articleUrl} passHref={true}>
+        <div>
+            <Link href={ athlete.articleUrl } passHref={true}>
                 <div>
-                <h1>Our Featured Story</h1>
+                <h1>Read our Featured Pro Story and learn some of their lessons</h1>
                 <Card>
                     <img 
                         src={ athlete.imageUrl } 
@@ -35,6 +36,7 @@ export default function FeaturedStory() {
                         <div className="d-flex justify-content-center">
                             <p className="lead">{athlete.storySummary}</p>
                         </div>
+                        <button className="btn btn-primary">Read the story!</button>
                     </Card.Body>
                 </Card>
                 </div>

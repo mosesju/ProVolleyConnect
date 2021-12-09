@@ -3,6 +3,7 @@ import styles from '../styles/Home.module.css'
 import FeaturedStory from './components/FeaturedStory'
 import AskAQuestion from './components/AskAQuestion'
 import Footer from './components/Footer'
+import Jumbotron from './components/Jumbotron'
 
 export default function Stories() {
     const jumboProps = {
@@ -17,6 +18,7 @@ export default function Stories() {
         <main className={styles.main}>
             <NavBar />
             <Jumbotron props={ jumboProps } />
+            <div className="col-md-8">
             <h1>Stories</h1>
             <h2>What it&apos;s like to actually be a pro</h2>
             <hr className={styles.dividerLine}></hr>
@@ -55,6 +57,8 @@ export default function Stories() {
                 <h2>Submit a request for a story, or propose your own!</h2>
                 <AskAQuestion />
             </div>
+            </div>
+            
             <Footer />
         </main>
     )

@@ -25,8 +25,8 @@ export default function Home() {
             <main className={styles.main}>
                 <Head props={ headProps } />
                 <NavBar />
-                <div className="col-md-8">
                 <Jumbotron props={ jumboProps } />
+                <div className="col-md-8">
                     {/* <p className={styles.description}>What is Volleyhead?</p> */}
                     <h2 className={styles.subTitle}>Our Team</h2>
                     <div className="card">

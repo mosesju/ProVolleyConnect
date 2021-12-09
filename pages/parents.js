@@ -2,6 +2,7 @@ import NavBar from './components/NavBar'
 import styles from '../styles/Home.module.css'
 import Footer from './components/Footer'
 import AskAQuestion from './components/AskAQuestion'
+import Jumbotron from './components/Jumbotron'
 
 export default function Parents() {
     const jumboProps = {
@@ -53,6 +54,7 @@ export default function Parents() {
                 <h2>Parents, ask us Anything and we will email you or write a post!</h2>
                 <AskAQuestion />
             </div>
+            
             <Footer />
         </main>
     )

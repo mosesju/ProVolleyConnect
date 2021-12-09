@@ -23,44 +23,45 @@ export default function NavBar() {
     //             </li> */}
     return (
         <nav className="navbar navbar-expand-lg navbar-expand-md navbar-light justify-content-center">
-            
-                <ul className="navbar-nav mr-auto ">
-                    <li className="nav-item">
-                        <Link href="/">
-                            <h3 className="nav-link" >Home </h3>
-                        </Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link href="/athletes">
-                            <h3 className="nav-link" >Athletes </h3>
-                        </Link>
-                    </li>
-                    {/* <li className="nav-item">
-                        <Link href="/learn">
-                            <h3 className="nav-link" >Learn </h3>
-                        </Link>
-                    </li> */}
-                    <li className="nav-item">
-                        <Link href="/stories">
-                            <h3 className="nav-link" >Stories </h3>
-                        </Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link href="/parents">
-                            <h3 className="nav-link" >Parents </h3>
-                        </Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link href="/agents">
-                            <h3 className="nav-link" >Agents </h3>
-                        </Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link href="https://volleyconnect.ghost.io/#/portal/signup">
-                            <button type="button" className="btn btn-primary">Sign Up!</button>
-                        </Link>
-                    </li>
-                </ul>
+            <div className="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div className="collapse navbar-collapse" id="navbar1">
+                    <ul className="navbar-nav mr-auto ">
+                        <li className="nav-item">
+                            <Link href="/">
+                                <h3 className="nav-link" >Home </h3>
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link href="/athletes">
+                                <h3 className="nav-link" >Athletes </h3>
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link href="/stories">
+                                <h3 className="nav-link" >Stories </h3>
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link href="/parents">
+                                <h3 className="nav-link" >Parents </h3>
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link href="/agents">
+                                <h3 className="nav-link" >Agents </h3>
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link href="https://volleyconnect.ghost.io/#/portal/signup">
+                                <button type="button" className="btn btn-primary">Sign Up!</button>
+                            </Link>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
 
                 

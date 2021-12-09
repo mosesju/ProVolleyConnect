@@ -4,16 +4,17 @@ import { useState } from 'react';
 const Jumbotron = (props) => {
     const jumboStyle = {
       backgroundColor: "#0070f3",
-      backgroundImage: "url(https://xvunwquprjgywjthgato.supabase.in/storage/v1/object/sign/util-photos/volleyball_equip.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ1dGlsLXBob3Rvcy92b2xsZXliYWxsX2VxdWlwLmpwZWciLCJpYXQiOjE2Mzg5NTI1MTYsImV4cCI6MTk1NDMxMjUxNn0.PDKMMj-Syo5PyUiSNMCmECwtauaR8JGjgcaeN0t7lqw)",
+      backgroundImage: "url(https://xvunwquprjgywjthgato.supabase.in/storage/v1/object/sign/util-photos/home-bg.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ1dGlsLXBob3Rvcy9ob21lLWJnLnBuZyIsImlhdCI6MTYzOTA1NDgwMCwiZXhwIjoxOTU0NDE0ODAwfQ.8WxRrVQR1Lg53DeLUKkRbkQR_FGcc1pepMTVSa1z5gQ)",
       backgroundSize: "cover",
       backgroundRepeat: "no-repeat",
       minWidth:'100%',
       height: 'auto',
-      padding: '10px'
+      padding: '50px'
     }
     return (
         <div style={ jumboStyle }>
-          <p className={`display-2 text-center ${styles.jumboShadowMain}`}>{ props.props.headline }</p>
+          {/* ${styles.jumboShadowMain} */}
+          <p className={`display-2 text-center ${styles.colorWhite}`}>{ props.props.headline }</p>
           {
               props.props.buttonText ? (
                 <p className="lead text-center">
@@ -21,7 +22,7 @@ const Jumbotron = (props) => {
                 </p>
             ): null
           }
-          <p className={`display-6 text-center ${styles.jumboShadowSub}`}>{ props.props.subHeading }</p>
+          <p className={`display-6 text-center ${styles.colorWhite}`}>{ props.props.subHeading }</p>
         </div>
     )
 }
