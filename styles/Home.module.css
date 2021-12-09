@@ -190,3 +190,10 @@
 .colorWhite {
   color: #fff
 }
+.backgroundBlue {
+  background-color: #0070f3;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+}

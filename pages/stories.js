@@ -5,6 +5,7 @@ import AskAQuestion from './components/AskAQuestion'
 import Footer from './components/Footer'
 import Jumbotron from './components/Jumbotron'
 import Head from 'next/head'
+import Link from 'next/link'
 
 export default function Stories() {
     const jumboProps = {
@@ -28,37 +29,35 @@ export default function Stories() {
             <h1>Stories</h1>
             <h2>What it&apos;s like to actually be a pro</h2>
             <hr className={styles.dividerLine}></hr>
-            <FeaturedStory />
+            <div className="d-flex justify-content-center">
+                <div className="col-md-6">
+                    <FeaturedStory />
 
+                </div>
+            </div>    
             <div className={styles.grid}>
-                <a href="#" className={styles.card}>
-                    <h2>Kyle Dagostino &rarr;</h2>
-                    <p>Libero who played at Stanford and in Slovenia</p>
-                </a>
+                    <a href="#" className={styles.card}>
+                        <h2>Kyle Dagostino &rarr;</h2>
+                        <p>Libero who played at Stanford and is now in Finland</p>
+                    </a>
 
-                <a href="#" className={styles.card}>
-                    <h2>Cody Kessel &rarr;</h2>
-                    <p>Outside from Princeton who plays with BR Volleys in Berlin, Germany</p>
-                </a>
+                    <a href="#" className={styles.card}>
+                        <h2>Cody Kessel &rarr;</h2>
+                        <p>Outside from Princeton who plays with BR Volleys in Berlin, Germany</p>
+                    </a>
 
-                <a
-                    href="#"
-                    className={styles.card}
-                >
-                    <h2>Jeff Jendryk &rarr;</h2>
-                    <p>Middle from Loyola Chicago, who plays with BR Volleys in Berlin, Germany</p>
-                </a>
+                    <a
+                        href="#"
+                        className={styles.card}
+                    >
+                        <h2>Jeff Jendryk &rarr;</h2>
+                        <p>Middle from Loyola Chicago, who plays with BR Volleys in Berlin, Germany</p>
+                    </a>
 
-                <a
-                    href="#"
-                    className={styles.card}
-                >
-                    <h2>Get your pro account &rarr;</h2>
-                    <p>
-                        To celebrate our launch, we&apos;re offering a free pro account for college and professional players. Sign up later.
-                    </p>
-                </a>
-            </div>
+                    <Link href="https://blog.volleyhead.com/#/portal/signup">
+                        <button className="btn btn-primary">Join us for FREE to read more!</button>
+                    </Link>
+                </div>        
             <div>
                 <h2>Submit a request for a story, or propose your own!</h2>
                 <AskAQuestion />
