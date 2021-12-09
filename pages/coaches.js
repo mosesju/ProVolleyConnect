@@ -50,7 +50,7 @@ export default function Coaches() {
             </div>
             <div>
                 <h2>Coaches, ask us Anything and we will email you or write a post!</h2>
-                <p>If you're interested in getting your team subscribed, email julian@1volley.com</p>
+                <p>If you&apos;re interested in getting your team subscribed, email julian@1volley.com</p>
                 <AskAQuestion />
             </div>
             <Footer />

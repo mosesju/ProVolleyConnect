@@ -2,6 +2,7 @@ import NavBar from './components/NavBar'
 import styles from '../styles/Home.module.css'
 import Footer from './components/Footer'
 import AskAQuestion from './components/AskAQuestion'
+import Jumbotron from './components/Jumbotron'
 
 export default function Learn() {
     // Where athletes will go to learn how to submit their stories

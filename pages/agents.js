@@ -47,7 +47,7 @@ export default function Agents() {
             <div className={styles.grid}>
                 <a href="https://blog.volleyhead.com/all-about-agents/" className={styles.card}>
                     <h2>All About Agents &rarr;</h2>
-                    <p>The breakdown on what Agents do, why they're important and more!</p>
+                    <p>The breakdown on what Agents do, why they&apos;re important and more!</p>
                 </a>
 
                 <a href="https://blog.volleyhead.com/learning-about-your-agent/" className={styles.card}>
@@ -60,7 +60,7 @@ export default function Agents() {
                     className={styles.card}
                 >
                     <h2>NCAA Compliance &rarr;</h2>
-                    <p>What you can and can't say around Agents</p>
+                    <p>What you can and can&apos;t say around Agents</p>
                 </a>
 
                 <a

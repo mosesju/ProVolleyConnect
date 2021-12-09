@@ -24,8 +24,8 @@ export default function NavBar() {
     return (
         <nav className="navbar navbar-expand-lg navbar-expand-md navbar-light justify-content-center">
             <div className="container">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1">
-                    <span class="navbar-toggler-icon"></span>
+                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1">
+                    <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbar1">
                     <ul className="navbar-nav mr-auto ">

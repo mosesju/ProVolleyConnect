@@ -35,7 +35,7 @@ export default function Home() {
       </div>
       <ExploreCols />
       <GetFreeAccountButton />
-      <div class="d-flex justify-content-center col-md-8">
+      <div className="d-flex justify-content-center col-md-8">
         {/* <h1>Read the pro's stories</h1> */}
         <FeaturedStory />
       </div>
@@ -47,7 +47,7 @@ export default function Home() {
           </div>
           <p className={styles.description}>
             You might not know a lot about professional Volleyball, but you probably think its untrustworthy, and unreliable. The bad guys
-            probably have gotten most of the attention and you've heard the nightmare stories like clubs refusing to pay their players. 
+            probably have gotten most of the attention and you&apos;ve heard the nightmare stories like clubs refusing to pay their players. 
             While the sport does have its moments, there is far more to the experience than just nightmares.
           </p>
           <span className={`${styles.title} d-flex justify-content-center`}>We got tired of it</span> 
