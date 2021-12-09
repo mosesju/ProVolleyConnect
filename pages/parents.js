@@ -3,6 +3,7 @@ import styles from '../styles/Home.module.css'
 import Footer from './components/Footer'
 import AskAQuestion from './components/AskAQuestion'
 import Jumbotron from './components/Jumbotron'
+import Head from 'next/head'
 
 export default function Parents() {
     const jumboProps = {
@@ -15,6 +16,11 @@ export default function Parents() {
     }
     return (
         <main className={styles.main}>
+            <Head>
+                <title>Volleyhead</title>
+                <meta name="description" content="Your trusted source for Volleyball Information" />
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
             <NavBar />
             <Jumbotron props={ jumboProps } />
             <h1>Parents</h1>

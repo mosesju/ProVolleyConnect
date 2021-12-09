@@ -4,6 +4,7 @@ import FeaturedStory from './components/FeaturedStory'
 import AskAQuestion from './components/AskAQuestion'
 import Footer from './components/Footer'
 import Jumbotron from './components/Jumbotron'
+import Head from 'next/head'
 
 export default function Stories() {
     const jumboProps = {
@@ -16,6 +17,11 @@ export default function Stories() {
     }
     return (
         <main className={styles.main}>
+            <Head>
+                <title>Volleyhead</title>
+                <meta name="description" content="Your trusted source for Volleyball Information" />
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
             <NavBar />
             <Jumbotron props={ jumboProps } />
             <div className="col-md-8">

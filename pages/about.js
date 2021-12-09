@@ -23,7 +23,11 @@ export default function Home() {
 
     return (
             <main className={styles.main}>
-                <Head props={ headProps } />
+                <Head>
+                    <title>Volleyhead</title>
+                    <meta name="description" content="Your trusted source for Volleyball Information" />
+                    <link rel="icon" href="/favicon.ico" />
+                </Head>
                 <NavBar />
                 <Jumbotron props={ jumboProps } />
                 <div className="col-md-8">
