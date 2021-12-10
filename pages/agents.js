@@ -35,7 +35,7 @@ export default function Agents() {
             <div className="col-md-8" align="center">
             <div className="jumbotron">
                 <h1 className="display-4">Agents</h1>
-                <p className="lead">Agents are the mysterious figures that everyone wants to understand... but is also a little nervous about. Don't worry, we felt the same way getting started. Here we have information on how to interact with Agents, and what to expect</p>
+                <p className="lead">Agents are the mysterious figures that everyone wants to understand... but is also a little nervous about. Don&apos;t worry, we felt the same way getting started. Here we have information on how to interact with Agents, and what to expect</p>
                 <hr className="my-4" />
                 {/* <p>Read more articles about Agents and <Link href='/agents/list'>check out our list of Agents</Link></p> */}
                 {/* <p className="lead">

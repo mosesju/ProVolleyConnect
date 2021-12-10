@@ -32,16 +32,16 @@ export default function Stories() {
                 <div className="d-flex justif-content-center">
                     <h2>What it&apos;s like to actually be a pro</h2>
                 </div> */}
-                                    <FeaturedStory />
+                <FeaturedStory />
 
-            <div className="d-flex justify-content-center">
-                <div className={`${styles.spacingTop}`}>
+                <div className="d-flex justify-content-center">
+                    <div className={`${styles.spacingTop}`}>
 
-                </div>
-            </div>   
-            <hr className={styles.dividerLine}></hr>
- 
-            <div className={styles.grid}>
+                    </div>
+                </div>   
+                <hr className={styles.dividerLine}></hr>
+    
+                <div className={styles.grid}>
                     <a href="#" className={styles.card}>
                         <h2>Kyle Dagostino &rarr;</h2>
                         <p>Libero who played at Stanford and is now in Finland</p>
