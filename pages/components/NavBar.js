@@ -20,6 +20,7 @@ export default function NavBar() {
                     <NavDropdown.Item href="/athletes">Athletes</NavDropdown.Item>
                     <NavDropdown.Item href="/coaches">Coaches</NavDropdown.Item>
                     <NavDropdown.Item href="/parents">Parents</NavDropdown.Item>
+                    <NavDropdown.Item href="/about">About</NavDropdown.Item>
                     <NavDropdown.Divider />
                     <NavDropdown.Item href="https://volleyconnect.ghost.io/#/portal/signup">Join for Free!</NavDropdown.Item>
                     </NavDropdown>

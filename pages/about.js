@@ -3,6 +3,7 @@ import NavBar from './components/NavBar'
 import Footer from './components/Footer'
 import Jumbotron from './components/Jumbotron'
 import Head from 'next/head'
+import AskAQuestion from './components/AskAQuestion'
 
 
 export default function Home() {
@@ -80,6 +81,7 @@ export default function Home() {
                         , send us an email and we can figure something out.
                     </p>
                 </div>
+                <AskAQuestion />
                 <Footer />
             </main>
         

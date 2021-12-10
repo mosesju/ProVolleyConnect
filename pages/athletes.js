@@ -59,10 +59,11 @@ export default function Athletes() {
                     </p>
                 </a>
             </div>
+            
+            </div>
             <div>
                 <h2>Athletes, ask us Anything and we will email you or write a post!</h2>
                 <AskAQuestion />
-            </div>
             </div>
             <Footer />
         </main>

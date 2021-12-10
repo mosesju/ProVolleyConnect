@@ -20,7 +20,7 @@ export default function AskAQuestion() {
         })
     }
     return(
-        <div className={styles.spacingTop}>
+        <div className={`container ${styles.spacingTop}`}>
             <hr className="my-4" />
             <div className={styles.spacingTop}>
                 <form onSubmit={handleSubmit(onSubmit)}>

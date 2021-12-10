@@ -32,9 +32,10 @@ export default function Stories() {
                 <div className="d-flex justif-content-center">
                     <h2>What it&apos;s like to actually be a pro</h2>
                 </div> */}
+                                    <FeaturedStory />
+
             <div className="d-flex justify-content-center">
-                <div className={`col-md-6 ${styles.spacingTop}`}>
-                    <FeaturedStory />
+                <div className={`${styles.spacingTop}`}>
 
                 </div>
             </div>   
@@ -65,12 +66,12 @@ export default function Stories() {
                         </Link>
                     </div>
                 </div>        
-            <div className={styles.spacingTop}>
+            
+            </div>
+            <div>
                 <h2>Submit a request for a story, or propose your own!</h2>
                 <AskAQuestion />
             </div>
-            </div>
-            
             <Footer />
         </main>
     )

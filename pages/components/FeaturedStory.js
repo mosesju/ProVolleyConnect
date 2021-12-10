@@ -15,7 +15,7 @@ export default function FeaturedStory() {
     }
     console.log(typeof(athlete.articleUrl))
     return (
-        <div>
+        <div className="container">
             <Link href={ athlete.articleUrl } passHref={true}>
                 <div>
                 <h1>Read our Featured Pro Story and learn some of their lessons</h1>

@@ -14,3 +14,9 @@ a {
 * {
   box-sizing: border-box;
 }
+@media (max-width: 768px) {
+  html, body {
+  width: auto !important;
+  overflow-x: hidden !important;
+  }
+  }

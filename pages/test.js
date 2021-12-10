@@ -1,6 +1,7 @@
 import Jumbootron from './components/Jumbotron'
 import styles from '../styles/Home.module.css'
 import GetFreeAccountButton from './components/GetFreeAccount'
+import Testimonials from './components/Testimonials'
 
 export default function Test() {
     const data = {
@@ -17,6 +18,7 @@ export default function Test() {
                 if you found this page... go back to the normal website you beautiful genius
                 <Jumbootron props = { data } />
                 <GetFreeAccountButton />
+                <Testimonials />
             </div>
         </div>
     )
