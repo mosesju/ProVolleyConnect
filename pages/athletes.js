@@ -16,7 +16,7 @@ export default function Athletes() {
         subHeading: 'Learn what to expect from your Professional Volleyball Experience'
     }
     return (
-        <main className={styles.main}>
+        <main className={`container ${styles.main}`}>
             <Head>
                 <title>Volleyhead</title>
                 <meta name="description" content="Your trusted source for Volleyball Information" />

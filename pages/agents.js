@@ -24,7 +24,7 @@ export default function Agents() {
 
     
     return (
-        <div className={ styles.main }>
+        <div className={`container ${styles.main}`}>
             <Head>
                 <title>Volleyhead</title>
                 <meta name="description" content="Your trusted source for Volleyball Information" />
@@ -35,9 +35,9 @@ export default function Agents() {
             <div className="col-md-8" align="center">
             <div className="jumbotron">
                 <h1 className="display-4">Agents</h1>
-                <p className="lead">The answers to your questions about Agents</p>
+                <p className="lead">Agents are the mysterious figures that everyone wants to understand... but is also a little nervous about. Don't worry, we felt the same way getting started. Here we have information on how to interact with Agents, and what to expect</p>
                 <hr className="my-4" />
-                <p>Read more articles about Agents and <Link href='/agents/list'>check out our list of Agents</Link></p>
+                {/* <p>Read more articles about Agents and <Link href='/agents/list'>check out our list of Agents</Link></p> */}
                 {/* <p className="lead">
                     <a className="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
                 </p> */}

@@ -14,10 +14,10 @@ export default function Stories() {
         headline: 'Stories',
         buttonText: 'Check out the whole collection!',
         buttonLink: 'https://blog.volleyhead.com/#/portal/signup',
-        subHeading: 'Read the stories from our favorite professional Volleyball players, current and former!'
+        subHeading: 'Learn about what being a pro is really like, directly from the people who live the lifestyle.'
     }
     return (
-        <main className={styles.main}>
+        <main className={`container ${styles.main}`}>
             <Head>
                 <title>Volleyhead</title>
                 <meta name="description" content="Your trusted source for Volleyball Information" />
@@ -26,15 +26,20 @@ export default function Stories() {
             <NavBar />
             <Jumbotron props={ jumboProps } />
             <div className="col-md-8">
-            <h1>Stories</h1>
-            <h2>What it&apos;s like to actually be a pro</h2>
-            <hr className={styles.dividerLine}></hr>
+            {/* <div className="text-justify">
+                    <h1>Stories</h1>
+                </div>
+                <div className="d-flex justif-content-center">
+                    <h2>What it&apos;s like to actually be a pro</h2>
+                </div> */}
             <div className="d-flex justify-content-center">
-                <div className="col-md-6">
+                <div className={`col-md-6 ${styles.spacingTop}`}>
                     <FeaturedStory />
 
                 </div>
-            </div>    
+            </div>   
+            <hr className={styles.dividerLine}></hr>
+ 
             <div className={styles.grid}>
                     <a href="#" className={styles.card}>
                         <h2>Kyle Dagostino &rarr;</h2>
@@ -53,12 +58,14 @@ export default function Stories() {
                         <h2>Jeff Jendryk &rarr;</h2>
                         <p>Middle from Loyola Chicago, who plays with BR Volleys in Berlin, Germany</p>
                     </a>
-
-                    <Link href="https://blog.volleyhead.com/#/portal/signup">
-                        <button className="btn btn-primary">Join us for FREE to read more!</button>
-                    </Link>
+                    <div className={styles.card}>
+                        <h2>Join Volleyhead &rarr;</h2>
+                        <Link href="https://blog.volleyhead.com/#/portal/signup">
+                            <button className="btn btn-primary">Join us for FREE to read more!</button>
+                        </Link>
+                    </div>
                 </div>        
-            <div>
+            <div className={styles.spacingTop}>
                 <h2>Submit a request for a story, or propose your own!</h2>
                 <AskAQuestion />
             </div>

@@ -19,7 +19,7 @@ export default function Home() {
     subHeading: 'Get unbiased stories, news and information about professional Volleyball.'
   }
   return (
-    <div className={styles.main}>
+    <div className={`container ${styles.main}`}>
       <Head>
         <title>Volleyhead</title>
         <meta name="description" content="Your trusted news in professional Volleyball. Learn how to become a pro, read stories from pros and more..." />

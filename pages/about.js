@@ -22,7 +22,7 @@ export default function Home() {
     const scottPicture = "https://xvunwquprjgywjthgato.supabase.in/storage/v1/object/sign/util-photos/Scott-headshot?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ1dGlsLXBob3Rvcy9TY290dC1oZWFkc2hvdCIsImlhdCI6MTYzODg4MzI2MywiZXhwIjoxOTU0MjQzMjYzfQ.K9sDd9gJyXoEIrPwK92bJ16tDiZ5TqhPZc3_wtBY0pw"
 
     return (
-            <main className={styles.main}>
+            <main className={`container ${styles.main}`}>
                 <Head>
                     <title>Volleyhead</title>
                     <meta name="description" content="Your trusted source for Volleyball Information" />

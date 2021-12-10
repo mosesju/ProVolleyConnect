@@ -13,7 +13,7 @@ export default function Learn() {
         subHeading: 'We are always looking for pros to come and tell us about their experiences. Give us a quick summary of who you are and we will reach out to you ASAP'
     }
     return (
-        <main className={styles.main}>
+        <main className={`container ${styles.main}`}>
             {/* Embed airtable or something to collect names */}
             <NavBar />
             <Jumbotron props={ jumboProps } />

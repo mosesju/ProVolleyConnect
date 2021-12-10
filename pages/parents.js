@@ -15,7 +15,7 @@ export default function Parents() {
         subHeading: 'Wish you could better understand the journey your child has been talking about? We have the answers to your questions, here!'
     }
     return (
-        <main className={styles.main}>
+        <main className={`container ${styles.main}`}>
             <Head>
                 <title>Volleyhead</title>
                 <meta name="description" content="Your trusted source for Volleyball Information" />

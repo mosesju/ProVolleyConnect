@@ -5,7 +5,7 @@ import Footer from './components/Footer'
 
 export default function ThankYou() {
     return (
-            <main className={styles.main}>
+            <main className={`container ${styles.main}`}>
             
                 <NavBar />
                 <div className="col-md-8">

@@ -15,7 +15,7 @@ export default function Coaches() {
         subHeading: 'Help your Athletes learn about professional Volleyball... the right way.'
     }
     return (
-        <main className={styles.main}>
+        <main className={`container ${styles.main}`}>
             <Head>
                 <title>Volleyhead</title>
                 <meta name="description" content="Your trusted source for Volleyball Information" />
@@ -23,7 +23,10 @@ export default function Coaches() {
             </Head>
             <NavBar />
             <Jumbotron props={ jumboProps } />
-            <hr className={styles.dividerLine}></hr>
+            <h1 className={`display-4 ${styles.spacingTop}`}>Coaches</h1>
+            <div className="col-md-8" align="center">
+            <p className="lead">You want to help your guys get great professional contracts... any good coach would. You might not exactly know what to do and how to stay compliant during that process. Read on, to learn how we can help you do just that.</p>
+            <hr className="my-4" />
             <h1>Articles for Coaches</h1>
             <div className={styles.grid}>
                 <a href="https://blog.volleyhead.com/#/portal/signup" className={styles.card}>
@@ -54,10 +57,11 @@ export default function Coaches() {
                     </p>
                 </a>
             </div>
-            <div>
-                <h2>Coaches, ask us Anything and we will email you or write a post!</h2>
-                <p>If you&apos;re interested in getting your team subscribed, email julian@1volley.com</p>
+            <div className={styles.spacingTop}>
+                <h2>Ask us Anything and we will email you or write a post!</h2>
+                <p>If you&apos;re interested in getting your team subscribed, email <a href="mailto:julian@1volley.com"><u>julian@1volley.com</u></a></p>
                 <AskAQuestion />
+            </div>
             </div>
             <Footer />
         </main>
