@@ -36,7 +36,10 @@ export default function FeaturedStory() {
                         <div className="d-flex justify-content-center">
                             <p className="lead">{athlete.storySummary}</p>
                         </div>
-                        <button className="btn btn-primary">Read the story!</button>
+                        <div className="d-flex justify-content-center">
+                            <button className="btn btn-primary">Read the story!</button>
+                        </div>
+                       
                     </Card.Body>
                 </Card>
                 </div>
