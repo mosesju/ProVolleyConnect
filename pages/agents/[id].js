@@ -2,7 +2,10 @@ import { useState, useEffect } from 'react'
 import { supabase } from '../../utils/supbaseClient'
 import Link from 'next/link'
 import NavBar from '../components/NavBar';
+import Jumbotron from '../components/Jumbotron'
 import dynamic from 'next/dynamic'
+import Head from 'next/head'
+import Footer from '../components/Footer';
 
 const Details = () => {
     // can use pathname for now but need to figure out how to pass a ref
@@ -62,11 +65,24 @@ const Details = () => {
             setTimeout(flagFunc, 1000);
         }
     }
+    const jumboProps = {
+        image: "volleyball_equip.jpeg",
+        imageAlt: "Banner image ball and hands",
+        headline: 'Learn all about Agents, here!',
+        buttonText: 'Get your FREE membership!',
+        buttonLink: 'https://blog.volleyhead.com/#/portal/signup',
+        subHeading: 'The best Agent information.'
+    }
 
     return (
         <div className="container">
+            <Head>
+                <title>Volleyhead</title>
+                <meta name="description" content="The best Agent List" />
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
             <NavBar />                
-                
+            <Jumbotron props={ jumboProps }/>
             <div className="card">
                 <div className="card-body">
                     <div className="d-flex flex-column align-items-center text-center">
@@ -91,6 +107,7 @@ const Details = () => {
                 {flags}
             </div>
             {/* <p>{ agent.countries_worked_in }</p> */}
+            <Footer />
         </div>
     )
 }

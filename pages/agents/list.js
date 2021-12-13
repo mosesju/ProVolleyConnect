@@ -7,6 +7,7 @@ import { supabase } from '../../utils/supbaseClient'
 import { useState, useEffect } from 'react'
 import Jumbotron from '../components/Jumbotron'
 import AskAQuestion from '../components/AskAQuestion'
+import Head from 'next/head'
 
 const AgentList = () => {
     const jumboProps = {
@@ -15,7 +16,7 @@ const AgentList = () => {
         headline: 'Learn all about Agents, here!',
         buttonText: 'Get your FREE membership!',
         buttonLink: 'https://blog.volleyhead.com/#/portal/signup',
-        subHeading: 'We aren\'t an agency. We are exclusively a source of information.'
+        subHeading: 'We aren\'t an agency. All Agents listed are FIVB certified.'
     }
     const [agents, setAgents] = useState([]);
     const router = useRouter();
@@ -37,6 +38,11 @@ const AgentList = () => {
     },[])
     return (
         <div className={styles.main}>
+            <Head>
+                <title>Volleyhead</title>
+                <meta name="description" content="The best Agent list" />
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
             <NavBar />
             <Jumbotron props={ jumboProps }/>
             <ul>

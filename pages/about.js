@@ -13,7 +13,7 @@ export default function Home() {
         headline: 'About Us',
         buttonText: 'Get your FREE membership!',
         buttonLink: 'https://blog.volleyhead.com/#/portal/signup',
-        subHeading: 'We are a neutral group of former pros and coaches who are making professional Volleyball more accessible. We interview the top athletes to hear their stories and learn what being a pro is actually like'
+        subHeading: 'Your trusted source for Volleyball news and stories'
     }
     const headProps = {
         title: 'About Volleyhead',
@@ -33,6 +33,8 @@ export default function Home() {
                 <Jumbotron props={ jumboProps } />
                 <div className="col-md-8">
                     {/* <p className={styles.description}>What is Volleyhead?</p> */}
+                    <h2 className={styles.subTitle}>Our Mission</h2>
+                        <p className="lead">You want to learn about professional Volleyball. Volleyhead, is the place for you. We are here to give you unbiased access and information for the professional game. We are a neutral group of former pros and coaches who are making professional Volleyball more accessible. We interview the top athletes to help them tell their stories</p>
                     <h2 className={styles.subTitle}>Our Team</h2>
                     <div className="card">
                         <div className="card-body"> 
@@ -45,7 +47,7 @@ export default function Home() {
                             <div className="p-2 bd-highlight mb-auto">
                             <div className="d-flex flex-column bd-highlight mb-3">
                                 <p className="display-6">Julian Moses</p>
-                                <h6>Co-Founder and Content Writer</h6>
+                                <h6>Co-Founder and Content Writer. Former Outside Hitter, Lewis &amp; Ushuaia Ibiza Volei</h6>
                                 {/* <div className="lead">I&apos;m excited to have a trusted resource for professional volleyball information. Over the last few years I&apos;ve had athletes consistently come up to me and ask what it takes to go pro.  How do they find an agent? When does the process start? What are the NCAA rules? The list goes on and on. Finally I can point them to a resource that has all the information they need and the stories of the athletes who have made the process work. </div> */}
                             </div>
                             </div>
@@ -63,23 +65,30 @@ export default function Home() {
                             <div className="p-2 bd-highlight mb-auto">
                             <div className="d-flex flex-column bd-highlight mb-3">
                                 <p className="display-6">Scott Kevorken</p>
-                                <h6>Co-Founder and Content Writer. Volunteer assistant: Pepperdine</h6>
+                                <h6>Co-Founder and Content Writer. Volunteer assistant: Pepperdine. Former Middle Blocker, UC Irvine, SVG Lüneburg, &amp; VfB Friedrichshafen</h6>
                                 {/* <div className="lead">I&apos;m excited to have a trusted resource for professional volleyball information. Over the last few years I&apos;ve had athletes consistently come up to me and ask what it takes to go pro.  How do they find an agent? When does the process start? What are the NCAA rules? The list goes on and on. Finally I can point them to a resource that has all the information they need and the stories of the athletes who have made the process work. </div> */}
                             </div>
                             </div>
                         </div>            
                         </div>
                     </div>
-                    <h2 className={styles.subTitle}>Pricing</h2>
-                    <p className={styles.description}>
-                        If you want to just read our on becoming a pro, join our always free plan.
-                        You&apos;ll get all the basics 
-                    </p>
-                    <p className={styles.description}>
-                        If you want to have access to our Discord community, weekly email, more stories and exclusive content
-                        you&apos;ll want to opt into our paid membership. It&apos;s $99 per year. If you&apos;re a junior or college player
-                        , send us an email and we can figure something out.
-                    </p>
+                    <hr className="my-4" />  
+                    <h2 className={styles.subTitle}>Pricing</h2>   
+                    <div className="card-group">
+                        <div className="card">
+                            <div className="card-body">
+                                <h5 className="card-title">Free</h5>
+                                <p className="card-text">Get the basics about professional Volleyball.</p>
+                            </div>
+                        </div>
+                        <div className="card">
+                            <div className="card-body">
+                                <h5 className="card-title">Premium</h5>
+                                <p className="card-text">Get all articles, weekly emails, and access to our community for $99/year. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <p><small className="text-muted">If you're a college or junior athlete, <a href="mailto:julian@1volley.com">email us for a free membershp.</a></small></p>
                 </div>
                 <AskAQuestion />
                 <Footer />

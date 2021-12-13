@@ -28,29 +28,32 @@ export default function Home() {
       <NavBar />
       <Jumbotron props={ jumboProps }/>
       <div className="col-md-8" align="center">
-        
+      <hr className="my-4" />
+
         <div className={ styles.spacing }>
           <Testimonials /> 
         </div>
       </div>
+      <hr className="my-4" />
       <ExploreCols />
+      <hr className="my-4" />
       <GetFreeAccountButton />
+      <hr className="my-4" />
       <div className="d-flex justify-content-center col-md-8">
         {/* <h1>Read the pro's stories</h1> */}
         <FeaturedStory />
       </div>
-      
       <div className="col-md-8"> 
         <div className={`${styles.spacing}`}>
           <div className="d-flex justify-content-center">
             <h2>Volleyball <span className={styles.colorBlue}>trusts</span> Volleyhead</h2>
           </div>
           <p className={styles.description}>
-            You might not know a lot about professional Volleyball, but you probably think its untrustworthy, and unreliable. The bad guys
-            probably have gotten most of the attention and you&apos;ve heard the nightmare stories like clubs refusing to pay their players. 
-            While the sport does have its moments, there is far more to the experience than just nightmares.
+            You&apos;re interested in pro Volleyball, but don't know how to start. You're in the right place.
+            You might even be looking to go pro, or even just learn more about the professional game. You&apos;ve definitely heard the rumors... The nightmares
+            and bad guys that give the sport a bad name.
           </p>
-          <span className={`${styles.title} d-flex justify-content-center`}>We got tired of it</span> 
+          <span className={`${styles.title} d-flex justify-content-center`}>We give you everything you need to have an amazing pro volleyball experience, without any bias.</span> 
           <p className={styles.description}>
           That&apos;s why we created Volleyhead. We&apos;ve always been 100% independent and always will be. We 
           will fight to remain independent of outside influence and provide unbiased and trusted information.
