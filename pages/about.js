@@ -88,7 +88,7 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    <p><small className="text-muted">If you're a college or junior athlete, <a href="mailto:julian@1volley.com">email us for a free membershp.</a></small></p>
+                    <p><small className="text-muted">If you&apos;re a college or junior athlete, <a href="mailto:julian@1volley.com">email us for a free membershp.</a></small></p>
                 </div>
                 <AskAQuestion />
                 <Footer />

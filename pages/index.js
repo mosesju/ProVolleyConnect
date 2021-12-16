@@ -49,7 +49,7 @@ export default function Home() {
             <h2>Volleyball <span className={styles.colorBlue}>trusts</span> Volleyhead</h2>
           </div>
           <p className={styles.description}>
-            You&apos;re interested in pro Volleyball, but don't know how to start. You're in the right place.
+            You&apos;re interested in pro Volleyball, but don&apos;t know how to start. You&apos;re in the right place.
             You might even be looking to go pro, or even just learn more about the professional game. You&apos;ve definitely heard the rumors... The nightmares
             and bad guys that give the sport a bad name.
           </p>
