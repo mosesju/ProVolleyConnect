@@ -68,7 +68,7 @@ const Details = () => {
     const jumboProps = {
         image: "volleyball_equip.jpeg",
         imageAlt: "Banner image ball and hands",
-        headline: 'Learn all about Agents, here!',
+        headline: 'Meet Agents here!',
         buttonText: 'Get your FREE membership!',
         buttonLink: 'https://blog.volleyhead.com/#/portal/signup',
         subHeading: 'The best Agent information.'
@@ -93,7 +93,7 @@ const Details = () => {
                         <p className="text-muted font-size-sm">{ agent.nationality }</p>
                         {/* <button className="btn btn-primary">Follow</button> */}
                         {/* Should be an email address */}
-                        <button className="btn btn-outline-primary">Message</button>
+                        <button className="btn btn-outline-primary">Website or Social</button>
                         </div>
                     </div>
                 </div>
