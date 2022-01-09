@@ -11,7 +11,7 @@ export default function FeaturedStory() {
         playsFor: "Raison Loimu",
         storySummary: "Learned about the games politics, and how to advocate for himself... the hard way",
         imageUrl: "https://xvunwquprjgywjthgato.supabase.in/storage/v1/object/sign/util-photos/KyleDag?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ1dGlsLXBob3Rvcy9LeWxlRGFnIiwiaWF0IjoxNjM4OTYxMzE0LCJleHAiOjE5NTQzMjEzMTR9.DpO_VRds6qkLsO7BVEoXv3hg5RZmt86lENrbrX2ZZmg",
-        articleUrl: "https://www.google.com/"
+        articleUrl: "https://blog.volleyhead.com/kyle-dagostino/"
     }
     console.log(typeof(athlete.articleUrl))
     return (
