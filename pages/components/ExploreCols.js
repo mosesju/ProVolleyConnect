@@ -8,7 +8,7 @@ export default function ExploreCols() {
           <div className="col-md">
             <div className="card">
             <div className="card-body">
-                <p className="card-title display-6">Agents</p>
+                <p className="card-title display-6">About Agents</p>
                 <h6 className={`lead mb-2 text-muted ${styles.topSpace}`}>Get all the information you need to understand Agents and how they work</h6>
                 <ul className={styles.topBottomSpace}>
                     <Link href="/agents">
