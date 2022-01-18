@@ -41,10 +41,10 @@ export default function Agents() {
                 {/* <p className="lead">
                     <a className="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
                 </p> */}
-                {/* <Link href="/agents/list">
+                <Link href="/agents/list">
                     <button className="btn btn-primary">See our list of Agents</button>
-                </Link> */}
-                <h1 className="display-6">Agent List coming soon!</h1>
+                </Link>
+                {/* <h1 className="display-6">Agent List coming soon!</h1> */}
 
             </div>
             {/* https://volleyconnect.ghost.io/tag/agents/ */}
