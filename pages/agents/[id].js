@@ -29,6 +29,7 @@ const Details = () => {
             return data;
         }
         fetchData().then((data) => {
+            console.log(data)
             setAgent(data[0])
             console.log(flags)
             flagFunc()
@@ -93,7 +94,9 @@ const Details = () => {
                         <p className="text-muted font-size-sm">{ agent.nationality }</p>
                         {/* <button className="btn btn-primary">Follow</button> */}
                         {/* Should be an email address */}
-                        <button className="btn btn-outline-primary">Website or Social</button>
+                        {/* <Link href={ agent.website } passHref={true}>
+                            <button className="btn btn-outline-primary">Website or Social</button>                    
+                        </Link> */}
                         </div>
                     </div>
                 </div>
@@ -103,8 +106,15 @@ const Details = () => {
 
             <p className="d-flex justify-content-center" >{ agent.athletes }</p>
             <h4 className="d-flex justify-content-center">I work in </h4>                    
-            <div styles="font-size:100px">
-                {flags}
+            <div className="d-flex justify-content-center">
+                <h6>
+                { agent.countries_worked_in }
+
+                </h6>
+            </div>
+            <h4 className="d-flex justify-content-center">Bio</h4>
+            <div>
+                { agent.bio }
             </div>
             {/* <p>{ agent.countries_worked_in }</p> */}
             <Footer />

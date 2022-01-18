@@ -40,23 +40,34 @@ const AgentList = () => {
         <div className={styles.main}>
             <Head>
                 <title>Volleyhead</title>
-                <meta name="description" content="The best Agent list" />
+                <meta name="description" content="The best Volleyball Agent list for NCAA Athletes" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <NavBar />
             <Jumbotron props={ jumboProps }/>
-            <ul>
-                <h2 className="display-5">Agent Profiles</h2>
-                {
-                    agents.map((agent, i)=>{
-                        return (
-                            <li className="list-group-item" key={i} onClick={() => router.push(`/agents/${agent.id}`) }>
-                                {agent.name}
-                            </li>
-                        )
-                    })
-                }
-            </ul>
+            <div className="d-flex justify-content-between">
+                <h2 className="display-2">Agents</h2>
+            </div>
+            <div className="container">
+                <ul>
+                    {
+                        agents.map((agent, i)=>{
+                            return (
+                                <li className="list-group-item" key={i} onClick={() => router.push(`/agents/${agent.id}`) }>
+                                    <div className="d-flex justify-content-between align-items-center">
+                                        <div className="lead">
+                                            {agent.name}
+                                        </div>
+                                        <button className="btn btn-primary btn-sm">Learn More!</button>
+                                    </div>
+                                </li>
+                            )
+                        })
+                    }
+                </ul>
+            </div>
+            
+                
             <hr className="my-4" />
             <h1>
                 Agents submit your information here.

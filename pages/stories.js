@@ -42,7 +42,7 @@ export default function Stories() {
                 <hr className={styles.dividerLine}></hr>
     
                 <div className={styles.grid}>
-                    <a href="#" className={styles.card}>
+                    <a href="https://blog.volleyhead.com/kyle-dagostino/" className={styles.card}>
                         <h2>Kyle Dagostino &rarr;</h2>
                         <p>Libero who played at Stanford and is now in Finland</p>
                     </a>
@@ -53,7 +53,7 @@ export default function Stories() {
                     </a>
 
                     <a
-                        href="#"
+                        href="https://blog.volleyhead.com/jeff-jendryk/"
                         className={styles.card}
                     >
                         <h2>Jeff Jendryk &rarr;</h2>
