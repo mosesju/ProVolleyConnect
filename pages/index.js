@@ -7,7 +7,7 @@ import Testimonials from './components/Testimonials'
 import Footer from './components/Footer'
 import Link from 'next/link'
 import FeaturedStory from './components/FeaturedStory'
-import GetFreeAccountButton from './components/GetFreeAccount'
+import ConvertKitSignUp from './components/ConvertKitSignUp'
 
 export default function Home() {
   const jumboProps = {
@@ -29,7 +29,7 @@ export default function Home() {
       <NavBar />
       <Jumbotron props={ jumboProps }/>
       <div className="col-md-8" align="center">
-      <hr className="my-4" />
+      {/* <hr className="my-4" /> */}
 
         <div className={ styles.spacing }>
           <Testimonials /> 
@@ -37,8 +37,13 @@ export default function Home() {
       </div>
       <hr className="my-4" />
       <ExploreCols />
-      <hr className="my-4" />
-      <GetFreeAccountButton />
+      <div className="col-md-8">
+        <hr className="my-4" />
+        <h1 className="display-4 d-flex justify-content-center align-items-center">Get insider access to pro Volleyball</h1>
+        <p className="lead d-flex justify-content-center align-items-center">You love Volleyball, and want to learn more about the pro game. Join to get insider access, scores, and stories from the people who make it happen.</p>
+      
+        <ConvertKitSignUp />
+      </div>
       <hr className="my-4" />
       <div className="d-flex justify-content-center col-md-8">
         {/* <h1>Read the pro's stories</h1> */}
@@ -76,15 +81,10 @@ export default function Home() {
           </div>
           <div className="d-flex justify-content-center">
           <div className={styles.grid}>
-            <a
-              href="https://blog.volleyhead.com/bic"
-              className={styles.card}
-            >
-              <h2>Join our Launch Special &rarr;</h2>
-              <p>
-                  To celebrate our launch we are giving you a premium accounts for just <strong>$1!</strong>
-              </p>
-              </a>
+            <div className={styles.card}>
+              <h2>Join our Newsletter &rarr;</h2>
+              <script async data-uid="dc9f9547ef" src="https://dogged-pioneer-9796.ck.page/dc9f9547ef/index.js"></script>
+            </div>
               <a
                 href="https://blog.volleyhead.com/tag/stories"
                 className={styles.card}

@@ -17,14 +17,23 @@ const Jumbotron = (props) => {
         <div style={ jumboStyle }>
           {/* ${styles.jumboShadowMain} */}
           <p className={`display-2 text-center ${styles.colorWhite} ${styles.spacingTop}`}>{ props.props.headline }</p>
+          <p className={`display-6 text-center ${styles.colorWhite}`}>{ props.props.subHeading }</p>
           {
               props.props.buttonText ? (
-                <p className="lead text-center">
-                    <a className={`btn btn-primary btn-lg ${styles.padder}`} href={ props.props.buttonLink } role="button">{ props.props.buttonText }</a>
-                </p>
+                <div>
+                  <div className={`d-flex justify-content-center lead ${styles.colorWhite}`}>
+                    Enter your email to get started
+                  </div>
+                  <div className="d-flex justify-content-center">
+                    <script async data-uid="dc9f9547ef" src="https://dogged-pioneer-9796.ck.page/dc9f9547ef/index.js"></script>
+                  </div>
+                </div>
+                
+                // <p className="lead text-center">
+                //     <a className={`btn btn-primary btn-lg ${styles.padder}`} href={ props.props.buttonLink } role="button">{ props.props.buttonText }</a>
+                // </p>
             ): null
           }
-          <p className={`display-6 text-center ${styles.colorWhite}`}>{ props.props.subHeading }</p>
         </div>
     )
 }

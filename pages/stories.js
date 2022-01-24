@@ -6,6 +6,7 @@ import Footer from './components/Footer'
 import Jumbotron from './components/Jumbotron'
 import Head from 'next/head'
 import Link from 'next/link'
+import ConvertKitSignUp from './components/ConvertKitSignUp'
 
 export default function Stories() {
     const jumboProps = {
@@ -61,9 +62,10 @@ export default function Stories() {
                     </a>
                     <div className={styles.card}>
                         <h2>Join Volleyhead &rarr;</h2>
-                        <Link href="https://blog.volleyhead.com/#/portal/signup">
+                        <ConvertKitSignUp />
+                        {/* <Link href="https://blog.volleyhead.com/#/portal/signup">
                             <button className="btn btn-primary">Join us for FREE to read more!</button>
-                        </Link>
+                        </Link> */}
                     </div>
                 </div>        
             

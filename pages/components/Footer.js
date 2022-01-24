@@ -15,7 +15,8 @@ export default function Footer() {
                 <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
             </span>
             </a> */}
-            <p className="">{ year } &#169; Volleyhead</p>
+            
+            <p>{ year } &#169; Volleyhead</p>
         </footer>
     )
 }
