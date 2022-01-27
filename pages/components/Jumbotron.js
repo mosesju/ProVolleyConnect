@@ -16,7 +16,7 @@ const Jumbotron = (props) => {
     return (
         <div style={ jumboStyle }>
           {/* ${styles.jumboShadowMain} */}
-          <p className={`display-2 text-center ${styles.colorWhite} ${styles.spacingTop}`}>{ props.props.headline }</p>
+          <h1 className={`display-2 text-center ${styles.colorWhite} ${styles.spacingTop}`}>{ props.props.headline }</h1>
           <p className={`display-6 text-center ${styles.colorWhite}`}>{ props.props.subHeading }</p>
           {
               props.props.buttonText ? (

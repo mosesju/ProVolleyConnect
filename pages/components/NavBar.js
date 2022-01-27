@@ -16,6 +16,7 @@ export default function NavBar() {
                 <Nav className="me-auto">   
                     <Nav.Link href="/stories">Stories</Nav.Link>
                     <Nav.Link href="/agents">Agents</Nav.Link>
+                    <Nav.Link href="/archive">Guides</Nav.Link>
                     <NavDropdown title="Resources for" id="basic-nav-dropdown">
                     <NavDropdown.Item href="/athletes">Athletes</NavDropdown.Item>
                     <NavDropdown.Item href="/coaches">Coaches</NavDropdown.Item>
