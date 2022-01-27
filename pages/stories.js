@@ -70,6 +70,7 @@ export default function Stories() {
                 </div>        
             
             </div>
+            <ConvertKitSignUp />
             <div>
                 <h2>Submit a request for a story, or propose your own!</h2>
                 <AskAQuestion />

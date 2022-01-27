@@ -82,8 +82,7 @@ export default function Home() {
           <div className="d-flex justify-content-center">
           <div className={styles.grid}>
             <div className={styles.card}>
-              <h2>Join our Newsletter &rarr;</h2>
-              <script async data-uid="dc9f9547ef" src="https://dogged-pioneer-9796.ck.page/dc9f9547ef/index.js"></script>
+              <ConvertKitSignUp />
             </div>
               <a
                 href="https://blog.volleyhead.com/tag/stories"

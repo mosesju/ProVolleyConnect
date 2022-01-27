@@ -4,6 +4,7 @@ import Footer from './components/Footer'
 import AskAQuestion from './components/AskAQuestion'
 import Jumbotron from './components/Jumbotron'
 import Head from 'next/head'
+import ConvertKitSignUp from './components/ConvertKitSignUp'
 
 export default function Parents() {
     const jumboProps = {
@@ -56,6 +57,7 @@ export default function Parents() {
                     </p>
                 </a>
             </div>
+            <ConvertKitSignUp />
             <div>
                 <h2>Parents, ask us Anything and we will email you or write a post!</h2>
                 <AskAQuestion />

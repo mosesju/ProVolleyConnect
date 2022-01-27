@@ -4,6 +4,7 @@ import Footer from './components/Footer'
 import AskAQuestion from './components/AskAQuestion'
 import Jumbotron from './components/Jumbotron'
 import Head from 'next/head'
+import ConvertKitSignUp from './components/ConvertKitSignUp'
 
 export default function Coaches() {
     const jumboProps = {
@@ -57,6 +58,7 @@ export default function Coaches() {
                     </p>
                 </a>
             </div>
+            <ConvertKitSignUp />
             <div className={styles.spacingTop}>
                 <h2>Ask us Anything and we will email you or write a post!</h2>
                 <p>If you&apos;re interested in getting your team subscribed, email <a href="mailto:julian@1volley.com"><u>julian@1volley.com</u></a></p>

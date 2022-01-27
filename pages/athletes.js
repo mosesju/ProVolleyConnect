@@ -5,6 +5,7 @@ import AskAQuestion from './components/AskAQuestion'
 import Footer from './components/Footer'
 import Jumbotron from './components/Jumbotron'
 import Head from 'next/head'
+import ConvertKitSignUp from './components/ConvertKitSignUp'
 
 export default function Athletes() {
     const jumboProps = {
@@ -61,6 +62,7 @@ export default function Athletes() {
             </div>
             
             </div>
+            <ConvertKitSignUp />
             <div>
                 <h2>Athletes, ask us Anything and we will email you or write a post!</h2>
                 <AskAQuestion />

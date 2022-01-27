@@ -5,6 +5,7 @@ import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 import Jumbotron from './components/Jumbotron';
 import Head from 'next/head'
+import ConvertKitSignUp from './components/ConvertKitSignUp';
 
 
 
@@ -79,7 +80,7 @@ export default function Agents() {
             </div>
             <div>
             </div>
-            
+            <ConvertKitSignUp />
             <div>
                 <h2>
                     Ask us Anything about Agents!

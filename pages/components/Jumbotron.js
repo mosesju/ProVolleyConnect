@@ -1,6 +1,7 @@
 import styles from '../../styles/Home.module.css'
 import { useState } from 'react';
 import dynamic from 'next/dynamic'
+import ConvertKitSignUp from './ConvertKitSignUp';
 
 
 const Jumbotron = (props) => {
@@ -20,13 +21,8 @@ const Jumbotron = (props) => {
           <p className={`display-6 text-center ${styles.colorWhite}`}>{ props.props.subHeading }</p>
           {
               props.props.buttonText ? (
-                <div>
-                  <div className={`d-flex justify-content-center lead ${styles.colorWhite}`}>
-                    Enter your email to get started
-                  </div>
-                  <div className="d-flex justify-content-center">
-                    <script async data-uid="dc9f9547ef" src="https://dogged-pioneer-9796.ck.page/dc9f9547ef/index.js"></script>
-                  </div>
+                <div className="d-flex justify-content-center">
+                  <ConvertKitSignUp />
                 </div>
                 
                 // <p className="lead text-center">

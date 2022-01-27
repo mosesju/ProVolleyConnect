@@ -4,6 +4,7 @@ import Footer from './components/Footer'
 import Jumbotron from './components/Jumbotron'
 import Head from 'next/head'
 import AskAQuestion from './components/AskAQuestion'
+import ConvertKitSignUp from './components/ConvertKitSignUp'
 
 
 export default function Home() {
@@ -90,6 +91,7 @@ export default function Home() {
                     </div>
                     <p><small className="text-muted">If you&apos;re a college or junior athlete, <a href="mailto:julian@1volley.com">email us for a free membershp.</a></small></p>
                 </div>
+                <ConvertKitSignUp />
                 <AskAQuestion />
                 <Footer />
             </main>
