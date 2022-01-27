@@ -40,6 +40,6 @@ node_modules
 videos.js
 videos/
 
-archive.js
-archive/
+# archive.js
+# archive/
 archive/template.js
