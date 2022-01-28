@@ -40,6 +40,12 @@ const Archives = () => {
         
         },
         {
+            title: 'So you want to Play Professional Volleyball',
+            author: 'Cody Kessel',
+            slug: 'so-you-want-to-play-professional-volleyball',
+            description: 'Cody Kessel writes about becoming a pro, and what he wishes he would have known'
+        },
+        {
             title: 'The Secret Guide to Pro Volleyball',
             author: 'Volleyhead',
             image: 'https://xvunwquprjgywjthgato.supabase.in/storage/v1/object/sign/util-300px/KyleDag.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ1dGlsLTMwMHB4L0t5bGVEYWcuanBnIiwiaWF0IjoxNjQzMDMyMDYxLCJleHAiOjE5NTgzOTIwNjF9.69kR0nE4rs2duvSXWVQzmncnalSYx9KjCacIwuVP3KI',
@@ -96,6 +102,10 @@ const Archives = () => {
             <Jumbotron props={ jumboProps }/>
             {/* <div className={`container ${styles.grid}`}> */}
             <div>
+                <div>
+                    <h3 className="d-flex justify-content-center">Going Pro is confusing</h3>
+                    <p className="lead d-flex justify-content-center">Our guides can help you make sense of professional Volleyball, and figure out what going pro means.</p>
+                </div>
                 <Row xs={1} md={2} className="g-4">
                 {
                     articles.map((article, i)=>{ console.log(i)
