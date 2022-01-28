@@ -21,7 +21,7 @@ export default function Agents() {
     const codyPrinceton = "https://xvunwquprjgywjthgato.supabase.in/storage/v1/object/sign/util-photos/princeton team.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ1dGlsLXBob3Rvcy9wcmluY2V0b24gdGVhbS5qcGVnIiwiaWF0IjoxNjQzMzk3MjY5LCJleHAiOjE5NTg3NTcyNjl9._XTuw8gYY0W3tpv_m2qQBIlVgz5JTlPUWdFdjZxmrh8";
     const codyUSA = "https://xvunwquprjgywjthgato.supabase.in/storage/v1/object/sign/util-photos/cody usa attack.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ1dGlsLXBob3Rvcy9jb2R5IHVzYSBhdHRhY2suanBlZyIsImlhdCI6MTY0MzM5NzgyNSwiZXhwIjoxOTU4NzU3ODI1fQ.hohlryqD4qrpylWxqekn7xYOddcxOw-qAH_TidLPzGE";
     const codyBerlin = "https://xvunwquprjgywjthgato.supabase.in/storage/v1/object/sign/util-photos/br volleys cele.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ1dGlsLXBob3Rvcy9iciB2b2xsZXlzIGNlbGUuanBlZyIsImlhdCI6MTY0MzM5NzgzOSwiZXhwIjoxOTU4NzU3ODM5fQ.rk7uKHOmrPMgg478_EEgRmn1RFeZVyLilM3v9ImkPdI"
-    // className={`${ArchiveStyles.archiveLink}`}
+    const codyHeadshot = "https://xvunwquprjgywjthgato.supabase.in/storage/v1/object/sign/util-photos/cody head shot.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ1dGlsLXBob3Rvcy9jb2R5IGhlYWQgc2hvdC5qcGciLCJpYXQiOjE2NDM0MDUxNTEsImV4cCI6MTk1ODc2NTE1MX0.68XT6Dbp9aHSJ4PJWijQF456-5TG8C1i7BPlk7CJMm0";
     return (
         <div className={`container ${styles.main}`}>
             <Head>
@@ -33,6 +33,14 @@ export default function Agents() {
             <Jumbotron props={ jumboProps }/>
             <div className="col-md-8">
                 <h3>So you want to go play professional volleyball?</h3>
+                <p className="lead">This week we were lucky enough to have our friend Cody Kessel write a piece for us. He talks about the process of becoming a pro, how to make it easier for yourself and what it&apos;s like on &nbsp;a day to day basis. Was really inspired when he wrote about how you have to lead with pure love for the sport.&nbsp;</p>
+                <p className="lead">Cody has got an awesome substack if you&apos;re interested in learning about mental toughness and performance. My personal favorite is <a href="https://codykessel.substack.com/p/31-on-luck-and-gratitude" className={`${ArchiveStyles.archiveLink}`}>On Luck &amp; Gratitude</a>.</p>
+                <div className="captioned-image-container">
+                    <figure>
+                        <Image loader={()=> codyHeadshot} src={codyHeadshot} width={1456} height={970}/>
+                        <figcaption className="figure-caption">Pure jubilation after helping my team win the German Championship</figcaption>
+                    </figure>
+                </div>
                 <p className="lead">If you&rsquo;re an aspiring NCAA or Canadian USports athlete who wants to go play professionally overseas, you would be better served to think about how you came to play at the college you are at.&nbsp;</p>
                 <p className="lead">If you were recruited- you know what kind of a process it was! Maybe years of relationship building, calls, texts, in-person visits, tournaments with coaches scouting you, sending video, looking at different options, and finally deciding. Additionally, you had and needed help because you wanted to find the best situation not only for your volleyball career but for your growth as a human being. Do the same here.</p>
                 <ul>
