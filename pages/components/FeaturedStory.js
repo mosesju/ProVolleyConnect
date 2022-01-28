@@ -6,12 +6,12 @@ import Link from 'next/link';
 export default function FeaturedStory() {
     // Is this going to be loaded from supabase
     const athlete = {
-        name: "Kyle Dagostino",
-        college: "Stanford",
-        playsFor: "Raison Loimu",
+        name: "Cody Kessel",
+        college: "Princeton",
+        playsFor: "BR Volleys",
         storySummary: "Learned about the games politics, and how to advocate for himself... the hard way",
-        imageUrl: "https://xvunwquprjgywjthgato.supabase.in/storage/v1/object/sign/util-photos/KyleDag?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ1dGlsLXBob3Rvcy9LeWxlRGFnIiwiaWF0IjoxNjM4OTYxMzE0LCJleHAiOjE5NTQzMjEzMTR9.DpO_VRds6qkLsO7BVEoXv3hg5RZmt86lENrbrX2ZZmg",
-        articleUrl: "https://blog.volleyhead.com/kyle-dagostino/"
+        imageUrl: "https://xvunwquprjgywjthgato.supabase.in/storage/v1/object/sign/util-photos/cody usa attack.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ1dGlsLXBob3Rvcy9jb2R5IHVzYSBhdHRhY2suanBlZyIsImlhdCI6MTY0MzQwMTIwNCwiZXhwIjoxOTU4NzYxMjA0fQ.s4VeEuvt80TYlOPcuuT3-PC5jw43vwWEdUzDhchzpbc",
+        articleUrl: "https://www.volleyhead.com/archive/so-you-want-to-play-professional-volleyball"
     }
     console.log(typeof(athlete.articleUrl))
     return (
