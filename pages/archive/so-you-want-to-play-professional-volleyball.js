@@ -95,10 +95,10 @@ export default function Agents() {
                 <p className="lead">Another thing working against non-EU/foreign players is the foreigner limit. Countries like Finland and Germany have no limit on foreign players, but almost all others do. COVID times have made these scarce opportunities even harder to come by, as leagues and teams all across the world lose money or close.&nbsp;</p>
                 <p className="lead">And yes, you&rsquo;re now in a competitive international market for players from all over the world who want the same job as you. Not easy!</p>
                 <p className="lead">Navigating this scene for the first time, I learned I could trust my current agent Chiara Castagnetti who can be reached at <a href="mailto:chiarac7@hotmail.com" className={`${ArchiveStyles.archiveLink}`} rel="">chiarac7@hotmail.com</a>. For more on agents, and this process of what you can do to prep a volleyball CV- fellow journeyman <a href="https://www.dustywatten.com/blogs/news/so-you-want-to-go-pro-heres-what-you-need-to-know" className={`${ArchiveStyles.archiveLink}`} rel="">Dustin Watten has written it better than I can and you should read his write-up here</a>. Basically, since agents, coaches, etc. can&rsquo;t come watch you in person, you have to rely on video. Maybe a highlight video to catch their eye, then a couple full matches against good competition. Along with general information about you. These people know volleyball, they can see quality and just want to see how you move, how you play, how you interact, etc.&nbsp;</p>
-                <div class="captioned-image-container">
+                <div className="captioned-image-container">
                     <figure className="figure">
                         <Image loader={()=> codyPrinceton} src={codyPrinceton} width={1004} height={475} />
-                        <figcaption class="figure-caption">Competing as a Princeton Tiger&nbsp;</figcaption>
+                        <figcaption className="figure-caption">Competing as a Princeton Tiger&nbsp;</figcaption>
                     </figure>
                 </div>
                 <h3><strong>Your Most Organized Volleyball May Be Behind You</strong></h3>
@@ -129,10 +129,10 @@ export default function Agents() {
                 </ul>
                 <p className="lead">(you can follow the professional path of players&ndash;and transfer news/rumors on <a href="https://volleybox.net/transfers/2021-22" className={`${ArchiveStyles.archiveLink}`} rel="">VolleyBox</a>. An unofficial LinkedIn for the international volleyball world. <a href="https://volleybox.net/cody-kessel-p2979/clubs" className={`${ArchiveStyles.archiveLink}`} rel="">Here&rsquo;s my profile.</a>)&nbsp;</p>
                 <p className="lead">I have also contributed to the National Team Gym and competed on a number of USA teams, a highlight was earning best attacker honors in my hometown of Colorado Springs at the NORCECA Champions Cup in 2019.</p>
-                <div class="captioned-image-container">
+                <div className="captioned-image-container">
                     <figure>
                         <Image loader={()=> codyUSA} src={codyUSA} width={3000} height={2000}/>
-                        <figcaption class="figure-caption">Battling a strong Cuban team in front of my home crowd&nbsp;</figcaption>
+                        <figcaption className="figure-caption">Battling a strong Cuban team in front of my home crowd&nbsp;</figcaption>
                     </figure>
                 </div>
                 <p className="lead">Other miscellaneous considerations.&nbsp;</p>
@@ -175,10 +175,10 @@ export default function Agents() {
                 <p className="lead">Chasing Olympic success and glory, as Hugh McCutcheon says, is working four years to be good for two weeks, to hopefully be good for two hours. The professional scene is equally unforgiving.&nbsp;</p>
                 <p className="lead">Those who have experienced it know, and that&rsquo;s why you hear so much talk about &ldquo;process.&rdquo; Because it&rsquo;s the only thing in our control. The score ultimately takes care of itself.&nbsp;</p>
                 <p className="lead">This is a small glimpse into my journey of becoming the best player and person I can be-one which continues. Volleyball has given me so much, and I want to continue to give back to the sport, too.</p>
-                <div class="captioned-image-container">
+                <div className="captioned-image-container">
                     <figure>
                         <Image loader={()=> codyBerlin} src={codyBerlin} width={1456} height={970}/>
-                        <figcaption class="figure-caption">Pure jubilation after helping my team win the German Championship</figcaption>
+                        <figcaption className="figure-caption">Pure jubilation after helping my team win the German Championship</figcaption>
                     </figure>
                 </div>
                 <h3><strong>More GREAT resources to help you understand this world&nbsp;</strong></h3>
