@@ -25,7 +25,7 @@ export default function Agents() {
     return (
         <div className={`container ${styles.main}`}>
             <Head>
-                <title></title>
+                <title>Cody Kessel on going Pro</title>
                 <meta name="description" content="Cody Kessel talks about the process of becoming a pro, how to make it easier for yourself and what it's like on  a day to day basis." />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
@@ -37,8 +37,8 @@ export default function Agents() {
                 <p className="lead">Cody has got an awesome substack if you&apos;re interested in learning about mental toughness and performance. My personal favorite is <a href="https://codykessel.substack.com/p/31-on-luck-and-gratitude" className={`${ArchiveStyles.archiveLink}`}>On Luck &amp; Gratitude</a>.</p>
                 <div className="captioned-image-container">
                     <figure>
-                        <Image loader={()=> codyHeadshot} src={codyHeadshot} width={1456} height={970}/>
-                        <figcaption className="figure-caption">Pure jubilation after helping my team win the German Championship</figcaption>
+                        <Image loader={()=> codyHeadshot} src={codyHeadshot} width={1366} height={2040}/>
+                        <figcaption className="figure-caption">Cody Kessel</figcaption>
                     </figure>
                 </div>
                 <p className="lead">If you&rsquo;re an aspiring NCAA or Canadian USports athlete who wants to go play professionally overseas, you would be better served to think about how you came to play at the college you are at.&nbsp;</p>

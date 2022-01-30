@@ -22,8 +22,8 @@ export default function Agents() {
     return (
         <div className={`container ${styles.main}`}>
             <Head>
-                <title></title>
-                <meta name="description" content="" />
+                <title>All about Agents</title>
+                <meta name="description" content="How Professional Volleyball Agencies work, and what you need to look out for." />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <NavBar />

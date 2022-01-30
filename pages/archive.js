@@ -86,6 +86,12 @@ const Archives = () => {
             image: '',
             slug: 'athlete-faq',
             description: 'Learn about the commmon questions aspiring pros need answers to.'
+        },
+        {
+            title: 'Get your Frist Contract',
+            author: 'Volleyhead',
+            slug:'get-first-contract',
+            description: 'The tried and true path to getting your first contract (for most of us).'
         }
 
     ]

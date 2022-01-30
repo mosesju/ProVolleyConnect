@@ -32,31 +32,31 @@ export default function Athletes() {
             </div>
             <hr className={styles.dividerLine}></hr>
             <div className={styles.grid}>
-                <a href="https://blog.volleyhead.com/getting-started-with-professional-volleyball/ " className={styles.card}>
-                    <h2>Learn how to get your First Contract &rarr;</h2>
+                <a href="/archive/get-first-contract" className={styles.card}>
+                    <h2>Get your First Contract &rarr;</h2>
                     <p>Your first contract is the hardest to get... Discover the tricks and tips.</p>
                 </a>
 
-                <a href="https://blog.volleyhead.com/learn-to-be-a-pro" className={styles.card}>
+                <a href="/archive/secret-guide" className={styles.card}>
                     <h2>The Secret Guide to Professional Volleyball &rarr;</h2>
                     <p>How does all these leagues work? Find out, here...</p>
                 </a>
 
                 <a
-                    href="https://blog.volleyhead.com/compliance"
+                    href="/archive/athlete-faq"
                     className={styles.card}
                 >
-                    <h2>NCAA Compliance &rarr;</h2>
-                    <p>That meeting you sleep through every year... except you should pay attention this time</p>
+                    <h2>Athlete FAQs &rarr;</h2>
+                    <p>All the questions you never thought to ask</p>
                 </a>
 
                 <a
-                    href="https://blog.volleyhead.com/agents"
+                    href="/agents"
                     className={styles.card}
                 >
                     <h2>All About Agents &rarr;</h2>
                     <p>
-                        Discover the world of Agents, and learn how they can help you.
+                        Discover the world of Agents, see our list of and learn how they can help you.
                     </p>
                 </a>
             </div>

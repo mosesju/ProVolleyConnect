@@ -11,12 +11,12 @@ export default function ExploreCols() {
                 <p className="card-title display-6">Agents</p>
                 <h6 className={`lead mb-2 text-muted ${styles.topSpace}`}>Get all the information you need to understand Agents and how they work</h6>
                 <ul className={styles.topBottomSpace}>
-                    <Link href="/agents">
+                    <Link href="/agents/list">
                         <li>
                         <u className={styles.colorBlue}>List of Agents</u>
                         </li>
                     </Link>
-                    <Link href="https://volleyconnect.ghost.io/all-about-agents/">
+                    <Link href="/archive/all-about-agents">
                         <li>
                             <u className={styles.colorBlue}>All About Agents</u>                      
                         </li>
@@ -31,7 +31,7 @@ export default function ExploreCols() {
                 {/* <p className="card-text">extra text</p> */}
                 <Link href="/agents">
                     <button className="btn btn-primary">
-                        Read More
+                        More on Agents
                     </button>
                 </Link>
             </div>
@@ -43,17 +43,17 @@ export default function ExploreCols() {
                 <h5 className="card-title display-6">For Athletes</h5>
                 <h6 className={`lead mb-2 text-muted ${styles.topSpace}`}>Explore a few of the things you should know <em>should</em> know before your pro career</h6>
                 <ul className={styles.topBottomSpace}>
-                    <Link href="https://volleyconnect.ghost.io/learn-to-be-a-pro/">
+                    <Link href="/archive/secret-guide">
                         <li>
-                        <u className={styles.colorBlue}>Pro Volleyball Guide</u>
+                        <u className={styles.colorBlue}>Secret Guide to pro Volley</u>
                   </li>
                     </Link>
-                    <Link href="https://volleyconnect.ghost.io/getting-started-with-professional-volleyball/">
+                    <Link href="/archive/so-you-want-to-play-professional-volleyball">
                         <li>
-                            <u className={styles.colorBlue}>Getting a contract</u>                      
+                            <u className={styles.colorBlue}>Cody Kessel on going Pro</u>                      
                         </li>
                     </Link>
-                    <Link href="https://volleyconnect.ghost.io/frequently-asked-questions-athletes/">
+                    <Link href="/archive/athlete-faq">
                         <li>
                         <u className={styles.colorBlue}>Athlete FAQ</u>
                             
@@ -63,7 +63,7 @@ export default function ExploreCols() {
                 {/* <p className="card-text">extra text</p> */}
                 <Link href="/athletes">
                     <button className="btn btn-primary">
-                        Read More
+                        More for Athletes
                     </button>
                 </Link>
                 </div>            
@@ -85,7 +85,7 @@ export default function ExploreCols() {
                         <u className={styles.colorBlue}>Healthcare Basics</u>
                         </li>
                     </Link>
-                    <Link href="https://volleyconnect.ghost.io/living-situation/">
+                    <Link href="/archive/living-situation">
                         <li>
                         <u className={styles.colorBlue}>Apartment Basics</u>
                             
@@ -93,9 +93,9 @@ export default function ExploreCols() {
                     </Link>
                 </ul>
                 {/* <p className="card-text">extra text</p> */}
-                <Link href="/agents">
+                <Link href="/parents">
                     <button className="btn btn-primary">
-                        Read More
+                        More for Parents
                     </button>
                 </Link>
                 </div>
@@ -112,23 +112,22 @@ export default function ExploreCols() {
                             <u className={styles.colorBlue}>Coach FAQ</u>                      
                         </li>
                     </Link>
-                    <Link href="https://volleyconnect.ghost.io/compliance/">
+                    <Link href="/archive/compliance">
                         <li>
                         <u className={styles.colorBlue}>Compliance</u>
                         </li>
                     </Link>
                     
-                    <Link href="https://volleyconnect.ghost.io/contracts/">
+                    <Link href="/archive/contracts">
                         <li>
                             <u className={styles.colorBlue}>Contracts</u>
-                            TBD?
                         </li>
                     </Link>
                 </ul>
                 {/* <p className="card-text">extra text</p> */}
-                <Link href="/agents">
+                <Link href="/coaches">
                     <button className="btn btn-primary">
-                        Read More
+                        More for Coaches
                     </button>
                 </Link>
                 </div>

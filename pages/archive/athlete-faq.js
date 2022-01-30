@@ -21,8 +21,8 @@ export default function Agents() {
     return (
         <div className={`container ${styles.main}`}>
             <Head>
-                <title></title>
-                <meta name="description" content="" />
+                <title>FAQ for Athletes</title>
+                <meta name="description" content="All the questions you wish you had an answer to before going pro" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <NavBar />
