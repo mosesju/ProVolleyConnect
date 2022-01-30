@@ -3,6 +3,7 @@ import NavBar from './components/NavBar'
 import Footer from './components/Footer'
 import Jumbotron from './components/Jumbotron'
 import Head from 'next/head'
+import Link from 'next/link'
 import AskAQuestion from './components/AskAQuestion'
 import ConvertKitSignUp from './components/ConvertKitSignUp'
 
@@ -90,6 +91,9 @@ export default function Home() {
                         </div>
                     </div>
                     <p><small className="text-muted">If you&apos;re a college or junior athlete, <a href="mailto:julian@1volley.com">email us for a free membershp.</a></small></p>
+                    <Link href="/privacy-policy">
+                        our privacy policy for those interested... you seem boring
+                    </Link>
                 </div>
                 <ConvertKitSignUp />
                 <AskAQuestion />
