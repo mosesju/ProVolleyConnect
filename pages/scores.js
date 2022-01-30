@@ -1,12 +1,12 @@
-import NavBar from '../components/NavBar';
-import AskAQuestion from '../components/AskAQuestion';
-import Footer from '../components/Footer';
-import styles from '../../styles/Home.module.css'
+import NavBar from './components/NavBar';
+import AskAQuestion from './components/AskAQuestion';
+import Footer from './components/Footer';
+import styles from '../styles/Home.module.css'
 import Link from 'next/link'
-import Jumbotron from '../components/Jumbotron';
+import Jumbotron from './components/Jumbotron';
 import Head from 'next/head'
 import Image from 'next/image'
-import ConvertKitSignUp from '../components/ConvertKitSignUp';
+import ConvertKitSignUp from './components/ConvertKitSignUp';
 
 
 
