@@ -92,6 +92,12 @@ const Archives = () => {
             author: 'Volleyhead',
             slug:'get-first-contract',
             description: 'The tried and true path to getting your first contract (for most of us).'
+        },
+        {
+            title: 'Learning about your Agent',
+            author: 'Volleyhead',
+            slug: 'learning-about-Agent',
+            description: 'Learn what questions you should ask agents and how to find the good ones.'
         }
 
     ]

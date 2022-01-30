@@ -84,13 +84,14 @@ export default function Home() {
             <div className={styles.card}>
               <ConvertKitSignUp />
             </div>
-              <a
-                href="https://blog.volleyhead.com/tag/stories"
-                className={styles.card}
-              >
-                <h2>Read your favorite Player&apos;s Stories &rarr;</h2>
-                <p>Exclusive pieces, as told by the athletes</p>
-              </a>
+            <div className={styles.card}>
+              <Link href="/stories">
+                <div>
+                  <h2>Read your favorite Player&apos;s Stories &rarr;</h2>
+                  <p>Exclusive pieces, as told by the athletes</p>
+                </div>
+              </Link>
+            </div>
             </div>
           </div>
         </div>

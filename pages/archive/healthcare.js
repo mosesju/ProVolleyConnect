@@ -33,7 +33,7 @@ export default function Agents() {
                 <h3>What is the health insurance situation?</h3>
                 <p className="lead">Health insurance will be a clause in the Athlete&apos;s contract, which should clearly outline the situation. Commonly you will see a clause like; &quot;INSURANCE: all the costs will be covered by the Club;&quot;</p>
                 <p className="lead">There are some edge cases where it depends on the professional status of the league. In most cases the athlete will be fully insured by the club.</p>
-                <p className="lead">One of the top Agents we interviewed told us that he advises every player he has to keep a second insurance policy at home... particularly if you're on your parents insurance. This way you have a backup in case something happens and you want to have it done at home.</p>
+                <p className="lead">One of the top Agents we interviewed told us that he advises every player he has to keep a second insurance policy at home... particularly if you&apos;re on your parents insurance. This way you have a backup in case something happens and you want to have it done at home.</p>
                 <h3>What happens in case of injury?</h3>
                 <p className="lead">If the Athlete is hurt while playing, the club will be responsible for their recovery. If surgery is necessary the club will often give the athlete the option of whether to do it at home or in the country they are playing.</p>
                 <p className="lead">Since the Athlete needs their body to do their job clubs tend to listen to Athletes throughout their experience</p>

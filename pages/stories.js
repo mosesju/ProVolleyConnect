@@ -47,12 +47,15 @@ export default function Stories() {
                         <h2>Kyle Dagostino &rarr;</h2>
                         <p>Libero who played at Stanford and is now in Finland</p>
                     </a>
+                    <div className={styles.card}>
+                        <Link href="/archive/so-you-want-to-play-professional-volleyball">
+                            <div>
+                                <h2>Cody Kessel &rarr;</h2>
+                                <p>Outside from Princeton who plays with BR Volleys in Berlin, Germany</p>
+                            </div>
+                        </Link>
 
-                    <a href="#" className={styles.card}>
-                        <h2>Cody Kessel &rarr;</h2>
-                        <p>Outside from Princeton who plays with BR Volleys in Berlin, Germany</p>
-                    </a>
-
+                    </div>
                     <a
                         href="https://blog.volleyhead.com/jeff-jendryk/"
                         className={styles.card}

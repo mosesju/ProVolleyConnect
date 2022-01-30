@@ -5,6 +5,7 @@ import AskAQuestion from './components/AskAQuestion'
 import Footer from './components/Footer'
 import Jumbotron from './components/Jumbotron'
 import Head from 'next/head'
+import Link from 'next/link'
 import ConvertKitSignUp from './components/ConvertKitSignUp'
 
 export default function Athletes() {
@@ -32,33 +33,38 @@ export default function Athletes() {
             </div>
             <hr className={styles.dividerLine}></hr>
             <div className={styles.grid}>
-                <a href="/archive/get-first-contract" className={styles.card}>
-                    <h2>Get your First Contract &rarr;</h2>
-                    <p>Your first contract is the hardest to get... Discover the tricks and tips.</p>
-                </a>
-
-                <a href="/archive/secret-guide" className={styles.card}>
-                    <h2>The Secret Guide to Professional Volleyball &rarr;</h2>
-                    <p>How does all these leagues work? Find out, here...</p>
-                </a>
-
-                <a
-                    href="/archive/athlete-faq"
-                    className={styles.card}
-                >
-                    <h2>Athlete FAQs &rarr;</h2>
-                    <p>All the questions you never thought to ask</p>
-                </a>
-
-                <a
-                    href="/agents"
-                    className={styles.card}
-                >
-                    <h2>All About Agents &rarr;</h2>
-                    <p>
-                        Discover the world of Agents, see our list of and learn how they can help you.
-                    </p>
-                </a>
+                <div className={styles.card}>
+                    <Link href="/archive/get-first-contract">
+                        <div>
+                        <h2>Get your First Contract &rarr;</h2>
+                        <p>Your first contract is the hardest to get... Discover the tricks and tips.</p>
+                        </div>
+                    </Link>
+                </div>
+                <div className={styles.card}>
+                    <Link href="/archive/secret-guide">
+                        <div>
+                        <h2>The Secret Guide to Professional Volleyball &rarr;</h2>
+                        <p>How does all these leagues work? Find out, here...</p>
+                        </div>
+                    </Link>
+                </div>
+                <div className={styles.card}>
+                    <Link href="/archive/athlete-faq">
+                        <div>
+                        <h2>Athlete FAQs &rarr;</h2>
+                        <p>All the questions you never thought to ask</p>
+                        </div>
+                    </Link>
+                </div>
+                <div className={styles.card}>
+                    <Link href="/agents">
+                        <div>
+                        <h2>All About Agents &rarr;</h2>
+                        <p>Discover the world of Agents, see our list of and learn how they can help you.</p>
+                        </div>
+                    </Link>
+                </div>
             </div>
             
             </div>

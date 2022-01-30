@@ -50,33 +50,38 @@ export default function Agents() {
             </div>
             {/* https://volleyconnect.ghost.io/tag/agents/ */}
             <div className={styles.grid}>
-                <a href="/archive/all-about-agents/" className={styles.card}>
-                    <h2>All About Agents &rarr;</h2>
-                    <p>The breakdown on what Agents do, why they&apos;re important and more!</p>
-                </a>
-
-                <a href="/archive/learning-about-Agent/" className={styles.card}>
-                    <h2>Learning about your Agent &rarr;</h2>
-                    <p>What should you ask your Agent before you get started?</p>
-                </a>
-
-                <a
-                    href="/archive/compliance"
-                    className={styles.card}
-                >
-                    <h2>NCAA Compliance &rarr;</h2>
-                    <p>What you can and can&apos;t say around Agents</p>
-                </a>
-
-                <a
-                    href="https://blog.volleyhead.com/contracts/"
-                    className={styles.card}
-                >
-                    <h2>Contracts &rarr;</h2>
-                    <p>
-                        Discover what a common contract looks like
-                    </p>
-                </a>
+                <div className={styles.card}>
+                    <Link href="/archive/all-about-agents/">
+                        <div>
+                        <h2>All About Agents &rarr;</h2>
+                        <p>The breakdown on what Agents do, why they&apos;re important and more!</p>
+                        </div>
+                    </Link>
+                </div>
+                <div className={styles.card}>
+                    <Link href="/archive/learning-about-Agent">
+                        <div>
+                        <h2>Learning about your Agent &rarr;</h2>
+                        <p>What should you ask your Agent before you get started?</p>
+                        </div>
+                    </Link>
+                </div>
+                <div className={styles.card}>
+                    <Link href="/archive/compliance">
+                        <div>
+                        <h2>NCAA Compliance &rarr;</h2>
+                        <p>What you can and can&apos;t say around Agents</p>
+                        </div>
+                    </Link>
+                </div>
+                <div className={styles.card}>
+                    <Link href="/archive/contracts">
+                        <div>
+                        <h2>Contracts &rarr;</h2>
+                        <p>What should my contract look like?</p>
+                        </div>
+                    </Link>
+                </div>
             </div>
             <div>
             </div>
