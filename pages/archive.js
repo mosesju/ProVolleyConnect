@@ -2,6 +2,7 @@ import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 import Jumbotron from './components/Jumbotron';
 import ConvertKitSignUp from './components/ConvertKitSignUp'
+import ExploreCols from './components/ExploreCols'
 
 import styles from '../styles/Home.module.css'
 
@@ -114,31 +115,42 @@ const Archives = () => {
             <Jumbotron props={ jumboProps }/>
             {/* <div className={`container ${styles.grid}`}> */}
             <div>
+                
                 <div>
-                    <h3 className="d-flex justify-content-center">Going Pro is confusing</h3>
-                    <p className="lead d-flex justify-content-center">Our guides can help you make sense of professional Volleyball, and figure out what going pro means.</p>
+                    <h2 className="d-flex justify-content-center display-2">Going Pro is Confusing</h2>
+                    <p className="d-flex justify-content-center display-6">Volleyhead makes it simple to understand how to go Pro</p>
                 </div>
-                <Row xs={1} md={2} className="g-4">
-                {
-                    articles.map((article, i)=>{ console.log(i)
-                        return(
-                        <div key={ i }>
-                        <Col>
-                            <Card>
-                                <Card.Body>
-                                    <Card.Title>{article.title}</Card.Title>
-                                    <p><small>{ article.author }</small></p>
-                                    <Card.Text>{ article.description }</Card.Text>
-                                    <Button variant="primary" onClick={() => router.push(`/archive/${ article.slug }`)}>Read More!</Button>
-                                </Card.Body>
-                            </Card>
-                        </Col>
-                        </div>
-                        )
-                        
-                    })
-                }
-                </Row>
+                <div className="d-flex justify-content-center">
+                    <ExploreCols />
+                </div>
+                <div> 
+                    <div className="d-flex justify-content-center">
+                        <h2>Our Archive. All our guides to going Pro.</h2>
+                        <p></p>
+                    </div>
+                    <Row xs={1} md={2} className="g-4">
+                    {
+                        articles.map((article, i)=>{ console.log(i)
+                            return(
+                            <div key={ i }>
+                            <Col>
+                                <Card>
+                                    <Card.Body>
+                                        <Card.Title>{article.title}</Card.Title>
+                                        <p><small>{ article.author }</small></p>
+                                        <Card.Text>{ article.description }</Card.Text>
+                                        <Button variant="primary" onClick={() => router.push(`/archive/${ article.slug }`)}>Read More!</Button>
+                                    </Card.Body>
+                                </Card>
+                            </Col>
+                            </div>
+                            )
+                            
+                        })
+                    }
+                    </Row>
+                </div>
+                
             </div>
             <ConvertKitSignUp />
             <Footer />
